@@ -3,7 +3,7 @@
   "baseUrl": ".",
   "paths": {
    "*": [
-    "../../hugo-blox-builder/modules/blox-bootstrap/assets/*"
+    "..\\..\\hugo-blox-builder\\modules\\blox-bootstrap\\assets\\*"
    ]
   }
  }

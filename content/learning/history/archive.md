@@ -7,12 +7,7 @@ description: >
   归档状态的学习笔记
 ---
 
-### [learning-maven](https://github.com/skyao/learning-maven)
 
-- 格式：gitbook格式
-- 更新：四年没更新
-- 内容：有很多内容，但已经没啥太大意义了
-- 状态：归档 (private archived)
 
 ### [learning-hessian](https://github.com/skyao/learning-hessian) 
 
