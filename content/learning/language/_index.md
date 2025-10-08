@@ -1,6 +1,7 @@
 ---
 title: 编程语言及类库
-update: "2025-10-08"
+date: "2025-10-08"
+weight: 100
 description: 编程语言及类库
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
