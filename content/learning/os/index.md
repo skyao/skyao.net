@@ -16,9 +16,9 @@ toc: true  # Show table of contents? true/false
 
 - 软路由：openwrt 是我喜欢的软路由操作系统。
 
-## windows
+## Windows
 
-### windows11 学习笔记
+### Windows11学习笔记
 
 Windows 11 是目前在用的主力 windows 操作系统，我自己的主力机一般都是 windows + linux 双系统。
 
@@ -27,9 +27,16 @@ Windows 11 是目前在用的主力 windows 操作系统，我自己的主力机
 - 格式：hugo格式 + docsy 主题
 - 状态：活跃
 
-## linux
+### Windows Server学习笔记
 
-### linux mint 学习笔记
+- 访问地址：<https://skyao.net/learning-windows-server>
+- 仓库地址：<https://github.com/skyao/learning-windows-server>
+- 格式：hugo格式 + docsy 主题
+- 状态：归档
+
+## Linux
+
+### Linux Mint学习笔记
 
 Linux Mint 是我目前使用的主力 linux 桌面操作系统，替代了之前长期使用的 ubuntu desktop。主要的优点是界面相对 ubuntu 友好，日常使用流畅且稳定。而且在使用了 bigsur 主题之后界面的美观度也足够满足我的需要了。加上 linux mint 是基于 Debian Ubuntu 的发行版，因此和 debian 的兼容性很好，可以无缝切换。因此，我的主力机器一般是 linux mint + windows11 组成双系统。目前是 linux mint 22.1 Cinnamon 版本，基于 ubuntu 22.04 版本。
 
@@ -38,7 +45,7 @@ Linux Mint 是我目前使用的主力 linux 桌面操作系统，替代了之�
 - 格式：hugo格式 + docsy 主题
 - 状态：活跃
 
-### debian 学习笔记
+### Debian学习笔记
 
 Debian 是我目前使用的主力 linxu 服务器操作系统，替代了之前长期使用的 ubuntu server。我是从 debian12 开始使用，目前准备升级到最新版本 debian13。
 
@@ -47,7 +54,7 @@ Debian 是我目前使用的主力 linxu 服务器操作系统，替代了之前
 - 格式：hugo格式 + docsy 主题
 - 状态：活跃
 
-### pve 学习笔记
+### PVE学习笔记
 
 PVE 是 Proxmox Virtual Environment 的缩写，是一款基于 Debian 的虚拟化平台。PVE 的好处是驱动支持比较全面， 尤其支持消费级硬件，因此我用 pve 替代了之前使用的 esxi 。目前使用的版本是 pve 8，准备升级 pve 9。
 
@@ -56,7 +63,25 @@ PVE 是 Proxmox Virtual Environment 的缩写，是一款基于 Debian 的虚拟
 - 格式：hugo格式 + docsy 主题
 - 状态：活跃
 
-### esxi 学习笔记
+### Openwrt学习笔记
+
+openwrt 及其变种是我目前使用的软路由操作系统,包括基于 x86-64 系统的普通pc 和基于 arm64 的路由器刷 openwrt 固件。
+
+- 访问地址：<https://skyao.net/learning-openwrt>
+- 仓库地址：<https://github.com/skyao/learning-openwrt>
+- 格式：hugo格式 + docsy 主题
+- 状态：活跃
+
+### Ubuntu Server学习笔记
+
+ubuntu server 是我使用时间非常长的 linux 服务器操作系统, 从 200x 年开始使用, 在 2023 年之后从 ubuntu server 22.04 开始切换到 debian 12,不过在某些场景下可能无法选择 debian,我也会继续使用 ubnuntu server. 这个笔记现在很少更新,但是会继续维护.
+
+- 访问地址：<https://skyao.net/learning-ubuntu-server>
+- 仓库地址：<https://github.com/skyao/learning-ubuntu-server>
+- 格式：hugo格式 + docsy 主题
+- 状态：维护(更新少,但内容可以访问)
+
+### ESXi学习笔记
 
 ESXi 是 VMware 公司的虚拟化软件，我有一段时间用 esxi 作为主力虚拟化平台，不过 esxi 硬件限制比较大，尤其我的机器主要是家用级配件，因此后来就换成了 pve。 esxi 就不再继续使用了。这个学习笔记也因此不再更新。
 
@@ -67,7 +92,7 @@ ESXi 是 VMware 公司的虚拟化软件，我有一段时间用 esxi 作为主�
 
 ## Macos
 
-### macos 学习笔记
+### Macos学习笔记
 
 有一段时间，公司配置的笔记本是 macbook，因此使用了 macos 。另外有段时间特别喜欢黑苹果，家里的主力机器一度是 windows + linux mint + macos （黑苹果）三系统。但现在所在的公司配置的是 windows 笔记本，黑苹果因为驱动原因（我用 nvidia 显卡）无法继续使用。因此我目前手上没有使用 macos 的设备了，这个 macos 学习笔记也因此不再更新。
 
