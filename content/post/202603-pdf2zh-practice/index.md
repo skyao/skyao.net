@@ -47,16 +47,16 @@ vi ~/.config/PDFMathTranslate/config.json
 
 ```json
 {
-  "translators":[
-    {
-      "name": "openai",
-      "envs": {
-        "OPENAI_BASE_URL": "https://openrouter.ai/api/v1",
-        "OPENAI_API_KEY": "sk-or-v1-959e1a04a1505bdd9baa6xxxxxxxxxxxxxxxxxxxxxxxx",
-        "OPENAI_MODEL": "anthropic/claude-4.6-opus"
-      }
-    }
-  ]
+    "translators": [
+        {
+            "name": "openai",
+            "envs": {
+                "OPENAI_BASE_URL": "https://openrouter.ai/api/v1",
+                "OPENAI_API_KEY": "sk-or-v1-90c66f9c7xxxxxxxxxxxxxxxxxxxxxxxx",
+                "OPENAI_MODEL": "anthropic/claude-4.6-opus"
+            }
+        }
+    ]
 }
 ```
 
@@ -80,7 +80,8 @@ vi ~/.config/PDFMathTranslate/config.json
 
 ```json
 {
-  "translators":[
+    "translators": [
+    ],
     "NOTO_FONT_PATH": "/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"
 }
 ```
@@ -89,161 +90,115 @@ vi ~/.config/PDFMathTranslate/config.json
 
 测试一下实际翻译效果，以经典的 linux-kernel-development-3rd.pdf 为例。
 
-为了提高翻译效果，我让 gemini 为了准备了一段 Prompt：
+为了提高翻译效果，我准备了一段 Prompt：
 
 ```bash
-要翻译的书籍为 linux-kernel-development-3rd.pdf，下面是这本书的介绍内容。
-
-A thorough guide to the design and implementation of the Linux kernel
-Linux Kernel Development details the design and implementation of the Linux kernel, presenting the content in a manner that is beneficial to those writing and developing kernel code, as well as to programmers seeking to better understand the operating system and become more efficient and productive in their coding.
-The book details the major subsystems and features of the Linux kernel, including its design, implementation, and interfaces. It covers the Linux kernel with both a practical and theoretical eye, which should appeal to readers with a variety of interests and needs.
-The author, a core kernel developer, shares valuable knowledge and experience on the 2.6 Linux kernel. Specific topics covered include process management, scheduling, time management and timers, the system call interface, memory addressing, memory management, the page cache, the VFS, kernel synchronization, portability concerns, and debugging techniques. This book covers the most interesting features of the Linux 2.6 kernel, including the CFS scheduler, preemptive kernel, block I/O layer, and I/O schedulers.
-
-The third edition of Linux Kernel Development includes new and updated material throughout the book:
-An all-new chapter on kernel data structures
-Details on interrupt handlers and bottom halves
-Extended coverage of virtual memory and memory allocation
-Tips on debugging the Linux kernel
-In-depth coverage of kernel synchronization and locking
-Useful insight into submitting kernel patches and working with the Linux kernel community
-
-为了最好的翻译效果，请帮我准备一段  系统提示词（Prompt）给 pdf2zh，让 pdf2zh 翻译的效果最好，最专业。
+vi ~/.config/PDFMathTranslate/it_book_prompt.txt
 ```
 
-Gemini 的输出为：
+内容为：
 
-```
-你是一位拥有20年开发经验的资深 Linux 内核核心开发者（Core Kernel Developer），同时也是国内顶尖的技术书籍翻译专家。你目前正在翻译 Robert Love 的经典著作《Linux Kernel Development (3rd Edition)》。
-你的目标是为中国 C/C++ 程序员和系统架构师提供一份极其专业、准确且极具“技术人味”的中文翻译，彻底消除“机翻感”。
+```bash
+你是一位同时精通中英文的资深IT技术专家，也是顶级技术图书（如 O'Reilly、机械工业出版社）的首席金牌译者。你具有极深厚的>计算机科学功底，深刻理解各类编程语言、系统架构与软件工程原理。
+你现在的任务是翻译一本IT技术书籍的内容。你的翻译目标是：准确传达技术原意（信）、符合中国程序员的表达习惯（达）、行文专
+业且具有技术专栏的流畅感（雅），彻底消除“机翻感”。
 
-请严格遵循以下翻译原则和约束：
+请你在后台静默执行以下翻译思考过程，但【绝对不要打印出思考过程】，你必须直接给出最终的翻译结果：
+1. 语境分析：理解该段落在讲什么技术概念，前后逻辑关系是什么。
+2. 术语识别：识别出所有代码片段、函数名、专有名词和行业标准缩写。
+3. 意译重构：打破英文原句的定语从句和长难句结构，用中国程序员最习惯的语序和技术口吻进行重写。
 
-1. 【绝对不翻译的元素】
-- 严禁翻译任何代码块、函数名（如 kmalloc, schedule, vmalloc）、宏定义（如 #define, HZ）、结构体名（如 task_struct, mm_struct, inode, dentry）、变量名。
-- 严禁翻译文件路径（如 kernel/sched.c）、终端命令和编译指令。
-- 严禁翻译业界通用的英文缩写（如 VFS, RCU, API, I/O, CPU, PID, IRQ, MMU）。
+为了配合 PDF 自动排版引擎，请你必须严格遵守以下极其严苛的【绝对规则】：
 
-2. 【强制术语对照表】（遇到以下概念，必须使用指定的中文翻译，并在关键概念首次出现时保留英文括号）：
-- Process management -> 进程管理
-- Scheduling / CFS scheduler -> 调度 / CFS 调度器（完全公平调度器）
-- Preemptive kernel -> 抢占式内核
-- Time management and timers -> 时间管理与定时器
-- System call interface -> 系统调用接口
-- Memory addressing -> 内存寻址
-- Memory management -> 内存管理
-- Virtual memory -> 虚拟内存
-- Memory allocation -> 内存分配
-- Page cache -> 页缓存（或 页高速缓存）
-- Block I/O layer -> 块 I/O 层
-- Kernel synchronization -> 内核同步
-- Locking / Spinlock / Mutex -> 锁机制 / 自旋锁 / 互斥锁
-- Interrupt handlers -> 中断处理程序
-- Bottom halves -> 下半部
-- Kernel patches -> 内核补丁
-- Portability -> 可移植性
-- Subsystems -> 子系统
+1. 【零废话输出（致命要求）】
+绝不输出任何引导语、解释、或是“好的，翻译如下”、“这段话的意思是”等废话。你的输出必须且只能是翻译后的纯文本，用于原封不
+动地替换源文件。
 
-3. 【排版与格式保持】
-- 务必保持原文档的 Markdown/LaTeX 标签、加粗、斜体等排版格式不变。
-- 对于夹杂在中文句子中的英文代码或术语，必须在英文单词前后各加一个空格（例如：“当 `task_struct` 被创建时”）。
+2. 【原样保留的元素】
+- 严禁翻译任何代码块、函数名（如 main(), map()）、类名、变量名、配置项。
+- 严禁翻译文件路径、终端命令（如 git commit）、编译指令、URL。
+- 严禁翻译业界通用的英文缩写（如 API, CPU, GPU, I/O, JSON, HTTP, DOM, GUI, K8s, IP 等）。
+- 若文中出现带有特殊符号的代码词汇（如 `<script>`, `__init__`, `*args`），必须原样保留。
 
-4. 【行文风格与语序】
+3. 【中英文排版规范（盘古之白）】
+- 在中文字符与英文字符/数字之间，必须强行加上一个半角空格（例如：“配置 `WebPack` 的过程”、“在 Python 3 中运行”）。
+- 务必完美保留原文中的所有 Markdown 符号、LaTeX 公式标签（如 **加粗**、*斜体*、`代码片段`）、列表编号和换行符。绝不能>丢失任何一个排版标签！
+
+4. 【行文风格与技术人味】
 - 采用专业、客观、严谨的技术工程口吻，不要使用轻浮或口语化的表达。
-- 遇到复杂的英文长句（尤其是描述内存转换、锁的并发控制、调度算法逻辑的句子），请先理解其在 Linux 内核中的实际工作原理，然后按照中文开发者的阅读习惯进行重组和意译。宁可打破原句结构，也要保证技术逻辑的绝对清晰，绝不逐字死译。
-- 如果原文中表达了作者（Robert Love）分享的经验或主观评价，请使用技术专栏或博客中常见的技术分享口吻。
+- 遇到非常冗长的英文复合句时，请将其拆分为多个简短的中文短句。
+- 宁可意译，也不要死板的字对字直译。例如，不要把 "it makes sense to..." 翻译成“它有意义去...”，而应翻译为“...是合理的”或“通常建议...”。
+- 遇到带有比喻色彩的技术俚语（如 under the hood, boilerplate），请直接翻译为其对应的技术含义（如“底层原理”、“样板代码”）。
+- 保持文字简洁，在表达清晰的前提下，尽量字数少一些
 
-请基于以上设定，开始你的翻译工作。
+5. 【强制技术术语对照表（Glossary）】
+当你遇到以下英文词汇时，必须严格使用对应的中文翻译，绝不可使用其他同义词（在特别生僻的概念首次出现时，请在中文后用括号保留英文原文）：
+
+# 操作系统与内核底层
+- Kernel -> 内核
+- Process -> 进程
+- Thread -> 线程
+- Daemon -> 守护进程
+- Context switch -> 上下文切换
+- System call (syscall) -> 系统调用
+- Interrupt -> 中断
+- Exception -> 异常
+- Trap -> 陷阱
+- Signal -> 信号
+- Semaphore -> 信号量
+- Mutex (Mutual Exclusion) -> 互斥锁
+- Spinlock -> 自旋锁
+- Deadlock -> 死锁
+- Race condition -> 竞态条件
+- Critical section -> 临界区
+- Concurrency -> 并发
+- Parallelism -> 并行
+
+# 内存管理
+- Memory Management Unit (MMU) -> 内存管理单元
+- Virtual Memory -> 虚拟内存
+- Page -> 页 / 内存页
+- Page Table -> 页表
+- Page fault -> 缺页异常 / 缺页中断
+- Cache -> 缓存
+- Buffer -> 缓冲区
+- Heap -> 堆
+- Stack -> 栈
+- Pointer -> 指针
+- Memory leak -> 内存泄漏
+- Segmentation fault -> 段错误
+
+# 存储与文件系统
+- File system -> 文件系统
+- Directory -> 目录（绝不要翻译为“文件夹”）
+- Inode -> 索引节点 (inode)
+- Mount -> 挂载
+- Block device -> 块设备
+- Character device -> 字符设备
+- Sector -> 扇区
+
+# 编程与通用架构
+- Instance -> 实例
+- Runtime -> 运行时
+- Framework -> 框架
+- Middleware -> 中间件
+- Interface -> 接口
+- Parameter / Argument -> 参数
+- Return value -> 返回值
+- Macro -> 宏
+- Deprecated -> 废弃的 / 不推荐使用的
+- Hardcode -> 硬编码
+- Refactor -> 重构
+- Deploy -> 部署
+- Overhead -> 开销
+- Scalability -> 可扩展性
+- Robustness -> 健壮性 / 鲁棒性
+- Transparent -> 透明的（在IT语境中通常指“对用户不可见/无需感知的”）
+
+请基于以上所有规则，直接输出你的最终翻译结果。
 ```
 
-### 准备配置文件
-
-准备一个 python 脚本来生成 pdf2zh 的配置文件：
-
-```bash
-mkdir -p ~/temp/pdf2zh
-cd ~/temp/pdf2zh
-vi prepare-config.py
-```
-
-内容为:
-
-```python
-import json
-import os
-
-# 1. 这里是专门为 Linux Kernel 准备的提示词
-prompt = """你是一位拥有20年开发经验的资深 Linux 内核核心开发者（Core Kernel Developer），同时也是国内顶尖的技术书籍翻译专家。你目前正在翻译 Robert Love 的经典著作《Linux Kernel Development (3rd Edition)》。
-你的目标是为中国 C/C++ 程序员和系统架构师提供一份极其专业、准确且极具“技术人味”的中文翻译，彻底消除“机翻感”。
-
-请严格遵循以下翻译原则和约束：
-
-1. 【绝对不翻译的元素】
-- 严禁翻译任何代码块、函数名（如 kmalloc, schedule, vmalloc）、宏定义（如 #define, HZ）、结构体名（如 task_struct, mm_struct, inode, dentry）、变量名。
-- 严禁翻译文件路径（如 kernel/sched.c）、终端命令和编译指令。
-- 严禁翻译业界通用的英文缩写（如 VFS, RCU, API, I/O, CPU, PID, IRQ, MMU）。
-
-2. 【强制术语对照表】（遇到以下概念，必须使用指定的中文翻译，并在关键概念首次出现时保留英文括号）：
-- Process management -> 进程管理
-- Scheduling / CFS scheduler -> 调度 / CFS 调度器（完全公平调度器）
-- Preemptive kernel -> 抢占式内核
-- Time management and timers -> 时间管理与定时器
-- System call interface -> 系统调用接口
-- Memory addressing -> 内存寻址
-- Memory management -> 内存管理
-- Virtual memory -> 虚拟内存
-- Memory allocation -> 内存分配
-- Page cache -> 页缓存（或 页高速缓存）
-- Block I/O layer -> 块 I/O 层
-- Kernel synchronization -> 内核同步
-- Locking / Spinlock / Mutex -> 锁机制 / 自旋锁 / 互斥锁
-- Interrupt handlers -> 中断处理程序
-- Bottom halves -> 下半部
-- Kernel patches -> 内核补丁
-- Portability -> 可移植性
-- Subsystems -> 子系统
-
-3. 【排版与格式保持】
-- 务必保持原文档的 Markdown/LaTeX 标签、加粗、斜体等排版格式不变。
-- 对于夹杂在中文句子中的英文代码或术语，必须在英文单词前后各加一个空格。
-
-4. 【行文风格与语序】
-- 采用专业、客观、严谨的技术工程口吻，不要使用轻浮或口语化的表达。
-- 遇到复杂的英文长句，请先理解其在 Linux 内核中的实际工作原理，然后按照中文开发者的阅读习惯进行重组和意译，绝不逐字死译。"""
-
-# 2. 组装配置字典
-config = {
-    "translators":[
-        {
-            "name": "openai",
-            "envs": {
-                "OPENAI_BASE_URL": "https://openrouter.ai/api/v1",
-                "OPENAI_API_KEY": "sk-or-v1-这里替换成你的真实API_KEY",
-                "OPENAI_MODEL": "anthropic/claude-4.6-opus"
-            },
-            "prompt": prompt
-        }
-    ],
-    "NOTO_FONT_PATH": "/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"
-}
-
-# 3. 写入配置文件
-config_dir = os.path.expanduser("~/.config/PDFMathTranslate")
-os.makedirs(config_dir, exist_ok=True)
-config_path = os.path.join(config_dir, "config.json")
-
-with open(config_path, "w", encoding="utf-8") as f:
-    json.dump(config, f, ensure_ascii=False, indent=2)
-
-print("\n✅ 配置文件生成成功！")
-```
-
-然后执行：
-
-```bash
-python3 ./prepare-config.py
-```
-
-就可以生成格式正确的配置文件。
+TODO: prompt 待继续完善
 
 ## 执行翻译
 
@@ -251,7 +206,7 @@ python3 ./prepare-config.py
 
 ```bash
 cd /home/sky/temp/pdf2zh
-pdf2zh linux-kernel-development-3rd.pdf -p 1-20 -s openai -t 4
+pdf2zh linux-kernel-development-3rd.pdf --prompt ~/.config/PDFMathTranslate/it_book_prompt.txt -p 1-20 -s openai -t 4
 ```
 
 ## 常见错误
@@ -348,45 +303,13 @@ pdf2zh 自带了几个无需注册、开箱即用的传统机器翻译引擎。�
    pdf2zh linux-kernel-development-3rd.pdf -s google -t 4
    ```
 
-   注：传统翻译不怕并发封号，你可以放心大胆地把 -t 线程数开到 4 甚至更高，速度飞快
+   注：传统翻译不怕并发封号，可以把 -t 线程数开到 4 甚至更高，速度快
 
-- **Bing (必应翻译)**：也是免费的传统翻译。如果所在的环境访问谷歌接口偶尔不稳定，Bing 是最好的替代品，同样无需任何配置，免费不限量。
+- **Bing (必应翻译)**：也是免费的传统翻译。如果所在的环境访问谷歌接口偶尔不稳定，可以试试 Bing 
 
    ```bash
    pdf2zh linux-kernel-development-3rd.pdf -s bing -t 4
    ```
-
-- **DeepLX**：通过第三方开源项目将 DeepL 网页版接口包装成免费 API。
-
-   DeepL 是目前公认翻译质量最自然的传统机器翻译工具（比 Google 和 Bing 通顺很多）。DeepLX 是开源社区搞出来的一个项目，它通过模拟网页端请求，让你免费、无限量地白嫖 DeepL 的翻译能力。
-
-   在终端运行以下命令，即可在后台启动 DeepLX：
-
-   ```bash
-   docker run -itd -p 1188:1188 ghcr.io/owo-network/deeplx:latest
-   ```
-
-   修改配置文件
-
-   ```bash
-   vi ~/.config/PDFMathTranslate/config.json
-   ```
-
-   添加/修改 deeplx 服务的配置：
-
-   ```json
-   {
-       "translators": [
-           {
-               "name": "deeplx",
-               "DEEPLX_BASE_URL": "http://127.0.0.1:1188/translate",
-               "prompt": "xxxxxxxxxxxx"
-           }
-       ],
-       "NOTO_FONT_PATH": "/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"
-   }
-   ```
-
 
 ### 收费
 
@@ -397,7 +320,7 @@ pdf2zh 自带了几个无需注册、开箱即用的传统机器翻译引擎。�
 - `openai/gpt-4o`：对于翻译技术书籍，OpenAI 的 GPT-4o 会是顶级选择
 - `deepseek/deepseek-chat`： DeepSeek V3 在处理代码和技术书籍时表现极佳，而且在 OpenRouter 上的价格只有 Claude Opus 的几十分之一
 
-总而言之：Sonnet 或 DeepSeek 的速度是 Opus 的 3 到 5 倍，且成本只有 Opus 的 1/5 甚至更低，性价比高。
+总而言之：Sonnet 或 DeepSeek 的速度比 Opus 好，而且成本更低，性价比高。
 
 ## 快速切换配置
 
@@ -538,3 +461,107 @@ pdf2zh linux-kernel-development-3rd.pdf -s openai -t 1 --config ~/.config/PDFMat
 ```
 
 实测效果：速度非常慢，翻译467页的 linux-kernel-development-3rd.pdf  时间在1.5小时。
+
+### openrouter + opus 
+
+新增配置文件 config-openrouter-opus.json：
+
+```bash
+vi ~/.config/PDFMathTranslate/configs/config-openrouter-opus.json
+```
+
+内容为：
+
+```json
+{
+    "translators": [
+        {
+            "name": "openai",
+            "envs": {
+                "OPENAI_BASE_URL": "https://openrouter.ai/api/v1",
+                "OPENAI_API_KEY": "sk-or-v1-90c66f9c7xxxxxxxxxxxxxxxxxxxxxxxx",
+                "OPENAI_MODEL": "anthropic/claude-4.6-opus"
+            }
+        }
+    ],
+    "NOTO_FONT_PATH": "/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"
+}
+```
+
+使用方式：
+
+```bash
+pdf2zh linux-kernel-development-3rd.pdf -s openai -t 1 --config ~/.config/PDFMathTranslate/configs/config-openrouter-opus.json --prompt ~/.config/PDFMathTranslate/it_book_prompt.txt
+```
+
+问题：哪怕只用一个线程，也会被 banned
+
+### jiekou + sonnet 
+
+新增配置文件 config-jiekou-sonnet.json：
+
+```bash
+vi ~/.config/PDFMathTranslate/configs/config-jiekou-sonnet.json
+```
+
+内容为：
+
+```json
+{
+    "translators": [
+        {
+            "name": "openai",
+            "envs": {
+                "OPENAI_BASE_URL": "https://api.jiekou.ai/openai",
+                "OPENAI_API_KEY": "sk_JscMPplxxxxxxxxxxxxxxxxx",
+                "OPENAI_MODEL": "claude-sonnet-4-6"
+            }
+        }
+    ],
+    "NOTO_FONT_PATH": "/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"
+}
+```
+
+使用方式：
+
+```bash
+pdf2zh linux-kernel-development-3rd.pdf -s openai -t 1 --config ~/.config/PDFMathTranslate/configs/config-jiekou-sonnet.json --prompt ~/.config/PDFMathTranslate/it_book_prompt.txt
+```
+
+问题： 总是很快（一般3-5页）就报错 RateLimitError，虽然还能继续，但是速度就严重降低.
+原因： jiekou.ai 这个中转网站限速，充值升级等级之后配额限制放大就不会再报这个错误了。
+
+
+### jiekou + gemini-flash 
+
+新增配置文件 config-jiekou-gemini-flash.json：
+
+```bash
+vi ~/.config/PDFMathTranslate/configs/config-jiekou-gemini-flash.json
+```
+
+内容为：
+
+```json
+{
+    "translators": [
+        {
+            "name": "openai",
+            "envs": {
+                "OPENAI_BASE_URL": "https://api.jiekou.ai/openai",
+                "OPENAI_API_KEY": "sk_JscMPpl32z2sxxxxxxxxxxxxxxxxxx",
+                "OPENAI_MODEL": "gemini-2.5-flash"
+            }
+        }
+    ],
+    "NOTO_FONT_PATH": "/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"
+}
+```
+
+使用方式：
+
+```bash
+pdf2zh linux-kernel-development-3rd.pdf -s openai -t 1 --config ~/.config/PDFMathTranslate/configs/config-jiekou-gemini-flash.json --prompt ~/.config/PDFMathTranslate/it_book_prompt.txt
+```
+
+
