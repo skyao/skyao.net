@@ -318,7 +318,7 @@ pdf2zh 自带了几个无需注册、开箱即用的传统机器翻译引擎。�
 - `anthropic/claude-sonnet-4.6`：比 opus 差一点点，但是便宜非常多。
 
 - `openai/gpt-4o`：对于翻译技术书籍，OpenAI 的 GPT-4o 会是顶级选择
-- `deepseek/deepseek-chat`： DeepSeek V3 在处理代码和技术书籍时表现极佳，而且在 OpenRouter 上的价格只有 Claude Opus 的几十分之一
+- `deepseek/deepseek-v4-flash` 或者 `deepseek/deepseek-v4-pro` ： 超高性价比的选择，甚至我感觉都不用选其他的了。
 
 总而言之：Sonnet 或 DeepSeek 的速度比 Opus 好，而且成本更低，性价比高。
 
@@ -410,9 +410,9 @@ vi ~/.config/PDFMathTranslate/configs/config-deepseek-openrouter.json
         {
             "name": "openai",
             "envs": {
-                "OPENAI_BASE_URL": "https://api.deepseek.com/v1",
-                "OPENAI_API_KEY": "sk-e3374xxxxxxxxxxxxxxxxxxxx",
-                "OPENAI_MODEL": "deepseek-chat"
+                "OPENAI_BASE_URL": "https://openrouter.ai/api/v1",
+                "OPENAI_API_KEY": "sk-or-v1-23874b8fxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0a8",
+                "OPENAI_MODEL": "deepseek/deepseek-v4-flash"
             }
         }
     ],
@@ -446,7 +446,7 @@ vi ~/.config/PDFMathTranslate/configs/config-deepseek-direct.json
             "envs": {
                 "OPENAI_BASE_URL": "https://api.deepseek.com/v1",
                 "OPENAI_API_KEY": "sk-e3374xxxxxxxxxxxxxxxxxxxx",
-                "OPENAI_MODEL": "deepseek-chat"
+                "OPENAI_MODEL": "deepseek-v4-flash"
             }
         }
     ],
