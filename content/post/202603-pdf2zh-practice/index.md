@@ -1,12 +1,12 @@
 +++
-title = "pdf2zh深度实践"
+title = "[归档]pdf2zh深度实践"
 date =  2026-03-28
 lastmod = 2026-03-28
 draft = false
 
 tags = ["PDF", "翻译"]
-summary = "深度使用pdf2zh进行 pdf 文件中文翻译"
-abstract = "深度使用pdf2zh进行 pdf 文件中文翻译"
+summary = "[已归档]深度使用pdf2zh进行 pdf 文件中文翻译"
+abstract = "[已归档]深度使用pdf2zh进行 pdf 文件中文翻译"
 
 [header]
 image = ""
@@ -14,7 +14,7 @@ caption = ""
 
 +++
 
-
+更新：2026年9月后改用 pdf2zh_next
 
 ## 安装
 
