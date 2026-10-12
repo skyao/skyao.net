@@ -1,0 +1,221 @@
+[9.4M]  /home/hatch/workspace
+|-- [ 658]  agents
+|   |-- [  22]  42218e15-8480-4896-9eb4-c0d00a6dbf0c
+|   |   `-- [   0]  tool-output
+|   |-- [  22]  5b092c66-6371-46d1-ad4c-1f0831ffc0fb
+|   |   `-- [   0]  tool-output
+|   |-- [  22]  c88323b2-aec4-4b6f-a87d-b540dd688f60
+|   |   `-- [   0]  tool-output
+|   |-- [  22]  cdff7ecc-8cad-4099-bf64-e3dc428a421f
+|   |   `-- [   0]  tool-output
+|   |-- [  22]  e8e4b3a3-e360-420a-b22c-e7ccbef6ae12
+|   |   `-- [   0]  tool-output
+|   |-- [  22]  f4415b65-167f-49d0-8430-adbba654b111
+|   |   `-- [   0]  tool-output
+|   `-- [  22]  fdfd51e2-8e51-4853-98c8-7831b59fa5fb
+|       `-- [   0]  tool-output
+|-- [5.6M]  avatars
+|   |-- [1.2M]  .frames
+|   |   |-- [267K]  static-1791539864191598118-0-idle.webp
+|   |   |-- [278K]  static-1791539864191598118-0-making_something.webp
+|   |   |-- [290K]  static-1791539864191598118-0-milestone_level_up.webp
+|   |   `-- [392K]  static-1791539864191598118-0-working.webp
+|   |-- [253K]  .thumbnails
+|   |   |-- [ 60K]  avatar-1791539864191598118-0-making_something.jpg
+|   |   |-- [ 59K]  avatar-1791539864191598118-0-milestone_level_up.jpg
+|   |   |-- [ 77K]  avatar-1791539864191598118-0-working.jpg
+|   |   `-- [ 57K]  avatar-1791539864191598118-0.jpg
+|   |-- [941K]  avatar-1791539864191598118-0-making_something.mp4
+|   |-- [885K]  avatar-1791539864191598118-0-milestone_level_up.mp4
+|   |-- [845K]  avatar-1791539864191598118-0-working.mp4
+|   |-- [482K]  avatar-1791539864191598118-0.mp4
+|   |-- [258K]  avatar-1791539864191598118-0.webp
+|   |-- [206K]  avatar-options-1791537501213485323-0-1.webp
+|   |-- [213K]  avatar-options-1791537501213485323-0-2.webp
+|   |-- [258K]  avatar-options-1791537501213485323-0-3.webp
+|   `-- [167K]  avatar-options-1791537501213485323-0-4.webp
+|-- [ 746]  cron.d
+|   |-- [   0]  _archive
+|   |-- [   0]  _invalid
+|   |-- [ 344]  daily
+|   |   `-- [ 266]  agentic-feature-tour__daily@12:10:00.md
+|   |-- [   0]  hourly
+|   |-- [ 264]  minutely
+|   |   `-- [ 212]  heartbeat__interval@30m.md
+|   |-- [   0]  monthly
+|   |-- [   0]  runonce
+|   |-- [   0]  secondly
+|   |-- [   0]  weekly
+|   `-- [   0]  yearly
+|-- [ 73K]  docs-archive.zip
+|-- [741K]  feed
+|   |-- [737K]  media
+|   |   |-- [735K]  3p
+|   |   |   |-- [295K]  18c8b7a4ac7e5b5e7256d6526bfefa60fd46f9f74942bb681a6fc8321c5e58d8
+|   |   |   |   `-- [295K]  hero.jpg
+|   |   |   |-- [ 54K]  3591c91325e21958c89fd65667921c4b9d065d17884a53d8abf611a776e8210d
+|   |   |   |   `-- [ 53K]  hero.jpg
+|   |   |   |-- [247K]  621e3ae4f2e6450ddc628a2861733ac2b38775cf852ed8dffcd4e21d610f7cf5
+|   |   |   |   `-- [247K]  hero.jpg
+|   |   |   `-- [139K]  880382c02ea115eab29f4a6769b3d6e8653e3c4976cbc6e42f74974b5dec10d5
+|   |   |       `-- [139K]  hero.jpg
+|   |   |-- [2.3K]  index.json
+|   |   `-- [   0]  staging
+|   |-- [3.4K]  research
+|   |   `-- [3.4K]  b00bd66c-383e-4f93-9cc2-d3f270e534d5
+|   |       |-- [ 751]  2026-10-09-adhoc-94d742c7
+|   |       |   `-- [ 739]  web.md
+|   |       |-- [ 949]  2026-10-09-adhoc-b3d8c164
+|   |       |   `-- [ 937]  web.md
+|   |       |-- [ 868]  2026-10-09-adhoc-cba3843d
+|   |       |   `-- [ 856]  web.md
+|   |       `-- [ 688]  2026-10-09-midday-c91a5e59
+|   |           `-- [ 676]  web.md
+|   `-- [   0]  runs
+|-- [1.5K]  mem-hog
+|   `-- [1.5K]  mem_hog.py
+|-- [1.8K]  memory
+|   |-- [1.4K]  reconciliation_attempts
+|   |   |-- [ 906]  2026-10-09
+|   |   |   |-- [ 315]  27c3d6280ae4a0c2b1d37071cfdc999634987d20e0a5dc55b3b1f81174b83093.json
+|   |   |   `-- [ 315]  f699b4a6f53d17bf7c026b6435f3610dcd547bb321f890c17731c9616055cf93.json
+|   |   `-- [ 453]  2026-10-10
+|   |       `-- [ 315]  4eea9e3bb358c6710554952616bde1459accfa1e9b1807669b8cbd070315a33e.json
+|   `-- [ 364]  reconciliation_state.json
+|-- [1.9K]  objectives
+|   `-- [1.9K]  goals
+|       `-- [1.9K]  INFERRED_GOAL_LEADS.md
+|-- [2.8M]  onboarding_tour
+|   |-- [451K]  artifact.png
+|   |-- [1.7M]  avatars.png
+|   |-- [338K]  crons.png
+|   `-- [316K]  goals.png
+|-- [ 80K]  proactivity
+|   `-- [ 80K]  hidden_files
+|       |-- [ 23K]  1791552294011-3c8231de1b92be51053f0774a9ed98cf
+|       |   |-- [ 11K]  conversation.md
+|       |   |-- [ 950]  feed.md
+|       |   |-- [1.3K]  memory.md
+|       |   `-- [10.0K]  scheduled-crons.md
+|       |-- [ 25K]  1791552294011-4c7eddacfe64ac4f67e511efacfab57b
+|       |   |-- [ 11K]  conversation.md
+|       |   |-- [4.6K]  opportunities.md
+|       |   `-- [10.0K]  scheduled-crons.md
+|       |-- [ 16K]  1791559489009-15204abca8c77caa6bc81414239b93a2
+|       |   |-- [2.5K]  conversation.md
+|       |   |-- [ 950]  feed.md
+|       |   |-- [10.0K]  scheduled-crons.md
+|       |   `-- [2.4K]  sent.md
+|       `-- [ 16K]  1791595498992-cbeb54ceee2a318a6064a91895331387
+|           |-- [2.5K]  conversation.md
+|           |-- [ 950]  feed.md
+|           |-- [10.0K]  scheduled-crons.md
+|           `-- [2.4K]  sent.md
+|-- [   0]  scheduler
+|-- [ 25K]  self_improvement
+|   |-- [ 202]  migrations
+|   |   `-- [ 126]  copy_first_objective_workspace_v1.json
+|   |-- [ 14K]  objectives
+|   |   |-- [1.2K]  alignment
+|   |   |   |-- [ 582]  CURRENT.md
+|   |   |   `-- [ 625]  archive
+|   |   |       `-- [ 571]  20261009T181516Z.CURRENT.md
+|   |   |-- [3.1K]  goals_bookkeeping
+|   |   |   |-- [ 574]  CURRENT.md
+|   |   |   `-- [2.5K]  archive
+|   |   |       |-- [ 574]  20261009T115118Z.CURRENT.md
+|   |   |       |-- [ 586]  20261009T181547Z.CURRENT.md
+|   |   |       |-- [ 574]  20261010T055107Z.CURRENT.md
+|   |   |       `-- [ 574]  20261010T115103Z.CURRENT.md
+|   |   |-- [ 551]  ideas
+|   |   |   `-- [ 531]  CURRENT.md
+|   |   |-- [2.9K]  memory
+|   |   |   |-- [ 535]  CURRENT.md
+|   |   |   `-- [2.3K]  archive
+|   |   |       |-- [ 535]  20261009T100259Z.CURRENT.md
+|   |   |       |-- [ 535]  20261009T130345Z.CURRENT.md
+|   |   |       |-- [ 535]  20261010T020408Z.CURRENT.md
+|   |   |       `-- [ 535]  20261010T120607Z.CURRENT.md
+|   |   |-- [3.6K]  relationships
+|   |   |   |-- [ 566]  CURRENT.md
+|   |   |   `-- [3.0K]  archive
+|   |   |       |-- [ 566]  20261009T095813Z.CURRENT.md
+|   |   |       |-- [ 566]  20261009T105820Z.CURRENT.md
+|   |   |       |-- [ 566]  20261009T125842Z.CURRENT.md
+|   |   |       |-- [ 566]  20261010T015827Z.CURRENT.md
+|   |   |       `-- [ 566]  20261010T115829Z.CURRENT.md
+|   |   |-- [1.2K]  shopping
+|   |   |   |-- [ 551]  CURRENT.md
+|   |   |   `-- [ 605]  archive
+|   |   |       `-- [ 551]  20261010T101113Z.CURRENT.md
+|   |   |-- [1.2K]  skill_improvement
+|   |   |   `-- [1.2K]  CURRENT.md
+|   |   `-- [ 566]  studying
+|   |       `-- [ 546]  CURRENT.md
+|   |-- [ 228]  relationships
+|   |   `-- [ 188]  legacy_page_archives
+|   |       |-- [   0]  groups.pre-relationships-reset-20261009T085808Z
+|   |       `-- [   0]  people.pre-relationships-reset-20261009T085808Z
+|   `-- [9.9K]  staging
+|       |-- [9.2K]  memory
+|       |   |-- [1.3K]  sirun_09434983df9d402285c12d686f9f18d9
+|       |   |   `-- [1.2K]  memory_reconciliation
+|       |   |       |-- [ 816]  pinned
+|       |   |       |   |-- [ 426]  USER.numbered.md
+|       |   |       |   `-- [ 330]  USER.pinned.md
+|       |   |       `-- [ 364]  reconciliation_state.json
+|       |   |-- [1.5K]  sirun_24b49cedaced472aa2dee86b7c3946f9
+|       |   |   `-- [1.4K]  memory_reconciliation
+|       |   |       |-- [1.1K]  pinned
+|       |   |       |   |-- [ 584]  MEMORY.numbered.md
+|       |   |       |   `-- [ 480]  MEMORY.pinned.md
+|       |   |       `-- [ 277]  reconciliation_state.json
+|       |   |-- [2.6K]  sirun_5ebf0e06e5e6481c975f1ee5a77c60d2
+|       |   |   `-- [2.6K]  memory_reconciliation
+|       |   |       |-- [1.1K]  pinned
+|       |   |       |   |-- [ 584]  MEMORY.numbered.md
+|       |   |       |   `-- [ 480]  MEMORY.pinned.md
+|       |   |       |-- [ 277]  reconciliation_state.json
+|       |   |       `-- [1.2K]  review
+|       |   |           |-- [ 480]  MEMORY.before.md
+|       |   |           `-- [ 651]  MEMORY.md
+|       |   |-- [1.8K]  sirun_84ee464afa6e47fdafca67d2ddf334b8
+|       |   |   `-- [1.8K]  memory_reconciliation
+|       |   |       |-- [1.5K]  pinned
+|       |   |       |   |-- [ 771]  MEMORY.numbered.md
+|       |   |       |   `-- [ 651]  MEMORY.pinned.md
+|       |   |       `-- [ 277]  reconciliation_state.json
+|       |   `-- [1.6K]  sirun_87d0a577ff4a45e3b18cfb22adcdbd85
+|       |       `-- [1.5K]  memory_reconciliation
+|       |           |-- [ 614]  pinned
+|       |           |   |-- [ 313]  MEMORY.numbered.md
+|       |           |   `-- [ 233]  MEMORY.pinned.md
+|       |           |-- [ 277]  reconciliation_state.json
+|       |           `-- [ 618]  review
+|       |               |-- [ 233]  MEMORY.before.md
+|       |               `-- [ 335]  MEMORY.md
+|       |-- [ 456]  relationships
+|       |   |-- [   0]  sirun_63d3ba543a864a2db64a2f9dde422735
+|       |   |-- [   0]  sirun_8d2384ccf4d645ba9d5a068d824011a9
+|       |   |-- [   0]  sirun_8dd292ae8485422ba1812d8c417089a5
+|       |   |-- [   0]  sirun_b493303eaa504ff98f011e680b75fbec
+|       |   |-- [   0]  sirun_b5e7f856c01b4a2a9a67d6ace5f93e71
+|       |   `-- [   0]  sirun_cd62f09a64844e118dd37034879c0155
+|       `-- [ 259]  shopping
+|           |-- [   0]  sirun_4d46a67459724d1e8612da8c21a4f173
+|           `-- [ 107]  sirun_b93748540b404b408fdaaaa4631b2265
+|               `-- [  87]  PROFILE.md
+|-- [   0]  spaces
+|-- [ 65K]  system
+|   `-- [ 65K]  system_prompt.md
+|-- [1.8K]  time-logger
+|   |-- [1.5K]  time.log
+|   `-- [ 315]  time_logger.py
+|-- [   0]  workspace-tree.txt
+`-- [1.7K]  your_files
+    `-- [1.6K]  proactive_messages
+        `-- [1.6K]  research
+            `-- [1.5K]  proactive_notification:phase-497653:research
+                `-- [1.4K]  run:proactive_notification:phase-497653:regular:item:1.md
+
+  23M used in 116 directories, 103 files

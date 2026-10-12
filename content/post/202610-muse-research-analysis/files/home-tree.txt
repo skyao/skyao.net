@@ -1,0 +1,1708 @@
+/home/hatch
+|-- .cache
+|   `-- dyi-export
+|-- .config
+|   `-- procps
+|-- .hatch-db-change-signals
+|-- .local
+|   `-- state
+|       `-- hatch
+|           `-- live-config
+|               |-- cosmos_voice_profiles.json
+|               `-- cosmos_voice_profiles_joint_snapshot.json
+|-- .pki
+|   `-- nssdb
+|       |-- cert9.db
+|       |-- key4.db
+|       `-- pkcs11.txt
+|-- .postgres-ready
+|-- .ssh
+|   |-- id_ed25519
+|   `-- id_ed25519.pub
+|-- AGENTS.md
+|-- HEARTBEAT.md
+|-- IDENTITY.md
+|-- MEMORY.md
+|-- PROACTIVE_PREFERENCES.md
+|-- SOUL.md
+|-- TOOLS.md
+|-- USER.md
+|-- agents
+|   |-- agent-0105cbbc-17f1-4f76-9ea8-61c020cd7e3b
+|   |   `-- sessions
+|   |       |-- 0105cbbc-17f1-4f76-9ea8-61c020cd7e3b.jsonl
+|   |       `-- sessions.json
+|   |-- agent-0894ddaa-2131-450f-943f-4418f06e8e9c
+|   |   `-- sessions
+|   |       |-- 0894ddaa-2131-450f-943f-4418f06e8e9c.jsonl
+|   |       `-- sessions.json
+|   |-- agent-0933fad7-2865-44a5-b3da-afe887c70999
+|   |   `-- sessions
+|   |       |-- 0933fad7-2865-44a5-b3da-afe887c70999.jsonl
+|   |       `-- sessions.json
+|   |-- agent-0f89474a-795c-4f48-9dd9-901f579c4af1
+|   |   `-- sessions
+|   |       |-- 0f89474a-795c-4f48-9dd9-901f579c4af1.jsonl
+|   |       `-- sessions.json
+|   |-- agent-1057d238-528f-4b20-9930-590971646afd
+|   |   `-- sessions
+|   |       |-- 1057d238-528f-4b20-9930-590971646afd.jsonl
+|   |       `-- sessions.json
+|   |-- agent-12d0947f-9bfa-48c3-ab12-f61cae090ce2
+|   |   `-- sessions
+|   |       |-- 12d0947f-9bfa-48c3-ab12-f61cae090ce2.jsonl
+|   |       `-- sessions.json
+|   |-- agent-16555c1f-e44f-4234-a7c8-9e7c49c87b09
+|   |   `-- sessions
+|   |       |-- 16555c1f-e44f-4234-a7c8-9e7c49c87b09.jsonl
+|   |       `-- sessions.json
+|   |-- agent-17c6a247-18de-4eb9-a3cb-79de4c767c03
+|   |   `-- sessions
+|   |       |-- 17c6a247-18de-4eb9-a3cb-79de4c767c03.jsonl
+|   |       `-- sessions.json
+|   |-- agent-19984e1b-65ed-43b0-b869-e03bc6abf514
+|   |   `-- sessions
+|   |       |-- 19984e1b-65ed-43b0-b869-e03bc6abf514.jsonl
+|   |       `-- sessions.json
+|   |-- agent-200d8a16-4991-4d80-b125-62ae51ee4909
+|   |   `-- sessions
+|   |       |-- 200d8a16-4991-4d80-b125-62ae51ee4909.jsonl
+|   |       `-- sessions.json
+|   |-- agent-2401deeb-db91-4e5d-9362-5c346fa1cf62
+|   |   `-- sessions
+|   |       |-- 2401deeb-db91-4e5d-9362-5c346fa1cf62.jsonl
+|   |       `-- sessions.json
+|   |-- agent-247aea78-3551-48fe-a32e-15532a58343e
+|   |   `-- sessions
+|   |       |-- 247aea78-3551-48fe-a32e-15532a58343e.jsonl
+|   |       `-- sessions.json
+|   |-- agent-26aba859-b8e2-46a8-b26d-ad11da883965
+|   |   `-- sessions
+|   |       |-- 26aba859-b8e2-46a8-b26d-ad11da883965.jsonl
+|   |       `-- sessions.json
+|   |-- agent-39f8e06b-efa5-49a0-9dae-12d915623e15
+|   |   `-- sessions
+|   |       |-- 39f8e06b-efa5-49a0-9dae-12d915623e15.jsonl
+|   |       `-- sessions.json
+|   |-- agent-3ce98f56-309a-4874-897c-63c7d1bbfabd
+|   |   `-- sessions
+|   |       |-- 3ce98f56-309a-4874-897c-63c7d1bbfabd.jsonl
+|   |       `-- sessions.json
+|   |-- agent-3ecabc97-8a7f-4275-962d-71a852540a45
+|   |   `-- sessions
+|   |       |-- 3ecabc97-8a7f-4275-962d-71a852540a45.jsonl
+|   |       `-- sessions.json
+|   |-- agent-42218e15-8480-4896-9eb4-c0d00a6dbf0c
+|   |   `-- sessions
+|   |       |-- 42218e15-8480-4896-9eb4-c0d00a6dbf0c.jsonl
+|   |       `-- sessions.json
+|   |-- agent-42d526bb-4225-4f76-afae-0c7fa91b7156
+|   |   `-- sessions
+|   |       |-- 42d526bb-4225-4f76-afae-0c7fa91b7156.jsonl
+|   |       `-- sessions.json
+|   |-- agent-441b96a1-c63f-4b06-8f85-78623df2f68c
+|   |   `-- sessions
+|   |       |-- 441b96a1-c63f-4b06-8f85-78623df2f68c.jsonl
+|   |       `-- sessions.json
+|   |-- agent-4bb9ae31-ef5f-4b22-b68d-62e3dc8c4090
+|   |   `-- sessions
+|   |       |-- 4bb9ae31-ef5f-4b22-b68d-62e3dc8c4090.jsonl
+|   |       `-- sessions.json
+|   |-- agent-50dd7197-e00b-4edd-968c-603bc49a5de2
+|   |   `-- sessions
+|   |       |-- 50dd7197-e00b-4edd-968c-603bc49a5de2.jsonl
+|   |       `-- sessions.json
+|   |-- agent-51069409-3cb1-4e3f-b0a2-133db36028e3
+|   |   `-- sessions
+|   |       |-- 51069409-3cb1-4e3f-b0a2-133db36028e3.jsonl
+|   |       `-- sessions.json
+|   |-- agent-54225a52-a3e1-4d8f-80fb-d3595f71fca9
+|   |   `-- sessions
+|   |       |-- 54225a52-a3e1-4d8f-80fb-d3595f71fca9.jsonl
+|   |       `-- sessions.json
+|   |-- agent-5b092c66-6371-46d1-ad4c-1f0831ffc0fb
+|   |   `-- sessions
+|   |       |-- 5b092c66-6371-46d1-ad4c-1f0831ffc0fb.jsonl
+|   |       `-- sessions.json
+|   |-- agent-5c593648-402a-4286-96c7-17a6949a8e76
+|   |   `-- sessions
+|   |       |-- 5c593648-402a-4286-96c7-17a6949a8e76.jsonl
+|   |       `-- sessions.json
+|   |-- agent-66388c73-84e1-4169-8492-abcee8bbe82a
+|   |   `-- sessions
+|   |       |-- 66388c73-84e1-4169-8492-abcee8bbe82a.jsonl
+|   |       `-- sessions.json
+|   |-- agent-67afc711-7a44-4830-b1fd-81ce83d4c7f5
+|   |   `-- sessions
+|   |       |-- 67afc711-7a44-4830-b1fd-81ce83d4c7f5.jsonl
+|   |       `-- sessions.json
+|   |-- agent-6db61add-a0db-4b50-90bf-db310aef1221
+|   |   `-- sessions
+|   |       |-- 6db61add-a0db-4b50-90bf-db310aef1221.jsonl
+|   |       `-- sessions.json
+|   |-- agent-6ef2d5b1-f9c1-46cc-8bcf-97e9ba4cfae4
+|   |   `-- sessions
+|   |       |-- 6ef2d5b1-f9c1-46cc-8bcf-97e9ba4cfae4.jsonl
+|   |       `-- sessions.json
+|   |-- agent-75e502d2-c3f1-4055-afb3-343af0e49c85
+|   |   `-- sessions
+|   |       |-- 75e502d2-c3f1-4055-afb3-343af0e49c85.jsonl
+|   |       `-- sessions.json
+|   |-- agent-796ff690-5889-4460-b3c9-95f1dd13aa8d
+|   |   `-- sessions
+|   |       |-- 796ff690-5889-4460-b3c9-95f1dd13aa8d.jsonl
+|   |       `-- sessions.json
+|   |-- agent-7b363347-1429-45f9-a7c1-83b05b3126d4
+|   |   `-- sessions
+|   |       |-- 7b363347-1429-45f9-a7c1-83b05b3126d4.jsonl
+|   |       `-- sessions.json
+|   |-- agent-87bdfbe5-da1e-4806-b2d8-5d6196253f69
+|   |   `-- sessions
+|   |       |-- 87bdfbe5-da1e-4806-b2d8-5d6196253f69.jsonl
+|   |       `-- sessions.json
+|   |-- agent-88ea4c93-40f7-433a-af97-e8675bd91cae
+|   |   `-- sessions
+|   |       |-- 88ea4c93-40f7-433a-af97-e8675bd91cae.jsonl
+|   |       `-- sessions.json
+|   |-- agent-8bf9e12f-82e4-478a-9a2a-170fc196b4a2
+|   |   `-- sessions
+|   |       |-- 8bf9e12f-82e4-478a-9a2a-170fc196b4a2.jsonl
+|   |       `-- sessions.json
+|   |-- agent-92c486b3-b8af-47e9-bfcd-628709089ded
+|   |   `-- sessions
+|   |       |-- 92c486b3-b8af-47e9-bfcd-628709089ded.jsonl
+|   |       `-- sessions.json
+|   |-- agent-9cc5e68b-0c9f-4177-95cc-05c1c068f7c4
+|   |   `-- sessions
+|   |       |-- 9cc5e68b-0c9f-4177-95cc-05c1c068f7c4.jsonl
+|   |       `-- sessions.json
+|   |-- agent-9d0ec7b3-1a2a-4f29-9f5a-7cb89116cc17
+|   |   `-- sessions
+|   |       |-- 9d0ec7b3-1a2a-4f29-9f5a-7cb89116cc17.jsonl
+|   |       `-- sessions.json
+|   |-- agent-9d7b2162-f546-456e-9e02-4eac075685f2
+|   |   `-- sessions
+|   |       |-- 9d7b2162-f546-456e-9e02-4eac075685f2.jsonl
+|   |       `-- sessions.json
+|   |-- agent-9eb45d80-da2b-4282-b120-115b0cc8a429
+|   |   `-- sessions
+|   |       |-- 9eb45d80-da2b-4282-b120-115b0cc8a429.jsonl
+|   |       `-- sessions.json
+|   |-- agent-a8517954-c741-4358-af2b-0065053c833b
+|   |   `-- sessions
+|   |       |-- a8517954-c741-4358-af2b-0065053c833b.jsonl
+|   |       `-- sessions.json
+|   |-- agent-aae5d0ca-3c36-425f-b6dd-5123cdc3c5f7
+|   |   `-- sessions
+|   |       |-- aae5d0ca-3c36-425f-b6dd-5123cdc3c5f7.jsonl
+|   |       `-- sessions.json
+|   |-- agent-ae159efa-566e-4905-8701-5b9a73d15c1b
+|   |   `-- sessions
+|   |       |-- ae159efa-566e-4905-8701-5b9a73d15c1b.jsonl
+|   |       `-- sessions.json
+|   |-- agent-af1bc142-d3d2-4055-96ed-30b383619bc2
+|   |   `-- sessions
+|   |       |-- af1bc142-d3d2-4055-96ed-30b383619bc2.jsonl
+|   |       `-- sessions.json
+|   |-- agent-b1cf8869-dc21-4ace-a6de-f7eae6dee335
+|   |   `-- sessions
+|   |       |-- b1cf8869-dc21-4ace-a6de-f7eae6dee335.jsonl
+|   |       `-- sessions.json
+|   |-- agent-b255b5dd-af5c-44ab-932d-f5bb31f7fe12
+|   |   `-- sessions
+|   |       |-- b255b5dd-af5c-44ab-932d-f5bb31f7fe12.jsonl
+|   |       `-- sessions.json
+|   |-- agent-b2885227-2f19-4f2b-8548-45f67410f5cc
+|   |   `-- sessions
+|   |       |-- b2885227-2f19-4f2b-8548-45f67410f5cc.jsonl
+|   |       `-- sessions.json
+|   |-- agent-b5ae2e1a-0d04-413b-9419-8759b0e0b7ed
+|   |   `-- sessions
+|   |       |-- b5ae2e1a-0d04-413b-9419-8759b0e0b7ed.jsonl
+|   |       `-- sessions.json
+|   |-- agent-b9568f77-e56b-4a8f-933e-18b56888389b
+|   |   `-- sessions
+|   |       |-- b9568f77-e56b-4a8f-933e-18b56888389b.jsonl
+|   |       `-- sessions.json
+|   |-- agent-b95a26e5-d95d-4975-bd7b-dd9b2ea5ce60
+|   |   `-- sessions
+|   |       |-- b95a26e5-d95d-4975-bd7b-dd9b2ea5ce60.jsonl
+|   |       `-- sessions.json
+|   |-- agent-bd8dc055-7879-4f0b-9a08-8fb5169eee3f
+|   |   `-- sessions
+|   |       |-- bd8dc055-7879-4f0b-9a08-8fb5169eee3f.jsonl
+|   |       `-- sessions.json
+|   |-- agent-c0d4ca2c-6d04-4790-897f-ff77f600c22b
+|   |   `-- sessions
+|   |       |-- c0d4ca2c-6d04-4790-897f-ff77f600c22b.jsonl
+|   |       `-- sessions.json
+|   |-- agent-c1e941ae-5052-41fa-9689-efe5be7538bd
+|   |   `-- sessions
+|   |       |-- c1e941ae-5052-41fa-9689-efe5be7538bd.jsonl
+|   |       `-- sessions.json
+|   |-- agent-c3d107d7-7da1-43eb-aec2-dbfb7accd1f9
+|   |   `-- sessions
+|   |       |-- c3d107d7-7da1-43eb-aec2-dbfb7accd1f9.jsonl
+|   |       `-- sessions.json
+|   |-- agent-c88323b2-aec4-4b6f-a87d-b540dd688f60
+|   |   `-- sessions
+|   |       |-- c88323b2-aec4-4b6f-a87d-b540dd688f60.jsonl
+|   |       `-- sessions.json
+|   |-- agent-cd7790b0-11e8-4db0-b52a-65c7bad170e7
+|   |   `-- sessions
+|   |       |-- cd7790b0-11e8-4db0-b52a-65c7bad170e7.jsonl
+|   |       `-- sessions.json
+|   |-- agent-cdff7ecc-8cad-4099-bf64-e3dc428a421f
+|   |   `-- sessions
+|   |       |-- cdff7ecc-8cad-4099-bf64-e3dc428a421f.jsonl
+|   |       `-- sessions.json
+|   |-- agent-cfcfba8b-38ca-4728-9402-210eaae9ae1c
+|   |   `-- sessions
+|   |       |-- cfcfba8b-38ca-4728-9402-210eaae9ae1c.jsonl
+|   |       `-- sessions.json
+|   |-- agent-d0fa60bf-7c00-4fd1-94b5-89e5a272cfba
+|   |   `-- sessions
+|   |       |-- d0fa60bf-7c00-4fd1-94b5-89e5a272cfba.jsonl
+|   |       `-- sessions.json
+|   |-- agent-d3cd4f18-2ec5-4355-8499-86df2f19d767
+|   |   `-- sessions
+|   |       |-- d3cd4f18-2ec5-4355-8499-86df2f19d767.jsonl
+|   |       `-- sessions.json
+|   |-- agent-dc32ab00-746d-424d-a7ed-9fda2aa79607
+|   |   `-- sessions
+|   |       |-- dc32ab00-746d-424d-a7ed-9fda2aa79607.jsonl
+|   |       `-- sessions.json
+|   |-- agent-dcd426a1-9d62-4257-b9c6-861623447cc8
+|   |   `-- sessions
+|   |       |-- dcd426a1-9d62-4257-b9c6-861623447cc8.jsonl
+|   |       `-- sessions.json
+|   |-- agent-df6c7274-f218-4387-9bb0-f50be3a04d00
+|   |   `-- sessions
+|   |       |-- df6c7274-f218-4387-9bb0-f50be3a04d00.jsonl
+|   |       `-- sessions.json
+|   |-- agent-e52eafc3-6d5d-479f-b237-ab33366edbc5
+|   |   `-- sessions
+|   |       |-- e52eafc3-6d5d-479f-b237-ab33366edbc5.jsonl
+|   |       `-- sessions.json
+|   |-- agent-e60f5a35-d572-4f6f-9b0e-a7c12731a16f
+|   |   `-- sessions
+|   |       |-- e60f5a35-d572-4f6f-9b0e-a7c12731a16f.jsonl
+|   |       `-- sessions.json
+|   |-- agent-e8e4b3a3-e360-420a-b22c-e7ccbef6ae12
+|   |   `-- sessions
+|   |       |-- e8e4b3a3-e360-420a-b22c-e7ccbef6ae12.jsonl
+|   |       `-- sessions.json
+|   |-- agent-eb9b0d69-78ea-477e-a4a7-fd5dcbfd7b5a
+|   |   `-- sessions
+|   |       |-- eb9b0d69-78ea-477e-a4a7-fd5dcbfd7b5a.jsonl
+|   |       `-- sessions.json
+|   |-- agent-f2163875-65b8-4134-84e1-e238caee1901
+|   |   `-- sessions
+|   |       |-- f2163875-65b8-4134-84e1-e238caee1901.jsonl
+|   |       `-- sessions.json
+|   |-- agent-f4415b65-167f-49d0-8430-adbba654b111
+|   |   `-- sessions
+|   |       |-- f4415b65-167f-49d0-8430-adbba654b111.jsonl
+|   |       `-- sessions.json
+|   |-- agent-f4b12095-be0a-495d-82f3-9144989e2ffe
+|   |   `-- sessions
+|   |       |-- f4b12095-be0a-495d-82f3-9144989e2ffe.jsonl
+|   |       `-- sessions.json
+|   |-- agent-f6308634-e230-4fad-9a01-a8cea43fd034
+|   |   `-- sessions
+|   |       |-- f6308634-e230-4fad-9a01-a8cea43fd034.jsonl
+|   |       `-- sessions.json
+|   |-- agent-f9287909-ebd4-4ac3-b31a-8779a3fcf1d7
+|   |   `-- sessions
+|   |       |-- f9287909-ebd4-4ac3-b31a-8779a3fcf1d7.jsonl
+|   |       `-- sessions.json
+|   |-- agent-f9f10093-8ac0-46ca-a577-d86066c573de
+|   |   `-- sessions
+|   |       |-- f9f10093-8ac0-46ca-a577-d86066c573de.jsonl
+|   |       `-- sessions.json
+|   |-- agent-fbf4ec88-3b78-46aa-afc5-748db3a226d2
+|   |   `-- sessions
+|   |       |-- fbf4ec88-3b78-46aa-afc5-748db3a226d2.jsonl
+|   |       `-- sessions.json
+|   |-- agent-fdfd51e2-8e51-4853-98c8-7831b59fa5fb
+|   |   `-- sessions
+|   |       |-- fdfd51e2-8e51-4853-98c8-7831b59fa5fb.jsonl
+|   |       `-- sessions.json
+|   `-- agent-ffb48300-114c-42a4-847c-07b16c697a61
+|       `-- sessions
+|           |-- ffb48300-114c-42a4-847c-07b16c697a61.jsonl
+|           `-- sessions.json
+|-- assets
+|   |-- artifacts
+|   |   `-- icons -> /opt/hatch-image/icons/front_view
+|   |-- avatar
+|   |   `-- reference
+|   |       |-- advanced-avatar-motion-specs.json
+|   |       |-- call-portrait-defaults.json
+|   |       |-- call-portrait-specs.json
+|   |       |-- coop-avatar-image-variants.json
+|   |       |-- coop-avatar-states.json
+|   |       |-- custom-wakeword-avatar-states.json
+|   |       |-- hatch-call-dark-reference.jpg.b64
+|   |       |-- hatch-call-dark-reference.png
+|   |       |-- hatch-call-light-reference.jpg.b64
+|   |       |-- hatch-call-light-reference.png
+|   |       |-- hatch.jpg
+|   |       |-- hatch.mp4
+|   |       |-- hatch_making_something.mp4
+|   |       |-- hatch_milestone_level_up.mp4
+|   |       |-- hatch_waking.mp4
+|   |       |-- hatch_working-7x12.mp4
+|   |       |-- hatch_working.mp4
+|   |       |-- starfire-glasses.webp
+|   |       `-- status-video-specs.json
+|   |-- blocklist
+|   |   |-- manifest.json
+|   |   |-- mase_all_domains.fst
+|   |   |-- mase_all_urls_fingerprints.bin
+|   |   |-- mase_blocklist_regex.json
+|   |   |-- mase_contract_domains.fst
+|   |   `-- mase_reduced_domains.fst
+|   |-- ideas
+|   |   |-- icon-descriptions.json
+|   |   |-- icons
+|   |   |   |-- a-line-skirt.webp
+|   |   |   |-- abacus.webp
+|   |   |   |-- accordion-folder.webp
+|   |   |   |-- action-camera.webp
+|   |   |   |-- add.webp
+|   |   |   |-- airplane.webp
+|   |   |   |-- airport-terminal.webp
+|   |   |   |-- alarm.webp
+|   |   |   |-- alpine-cable-car.webp
+|   |   |   |-- ambulance.webp
+|   |   |   |-- analytics.webp
+|   |   |   |-- apartment-building.webp
+|   |   |   |-- apple.webp
+|   |   |   |-- arcade-machine.webp
+|   |   |   |-- archery-bow.webp
+|   |   |   |-- archive.webp
+|   |   |   |-- armchair.webp
+|   |   |   |-- arrow.webp
+|   |   |   |-- article.webp
+|   |   |   |-- artist-sketchbook.webp
+|   |   |   |-- at-symbol.webp
+|   |   |   |-- atom.webp
+|   |   |   |-- attachment.webp
+|   |   |   |-- aurora.webp
+|   |   |   |-- avatar.webp
+|   |   |   |-- avocado.webp
+|   |   |   |-- baby.webp
+|   |   |   |-- backgammon-board.webp
+|   |   |   |-- backpack.webp
+|   |   |   |-- bacon-strips.webp
+|   |   |   |-- badge.webp
+|   |   |   |-- badminton-racket.webp
+|   |   |   |-- badminton.webp
+|   |   |   |-- balloon-bunch.webp
+|   |   |   |-- balloon.webp
+|   |   |   |-- banana.webp
+|   |   |   |-- bandage.webp
+|   |   |   |-- bank.webp
+|   |   |   |-- barber-pole.webp
+|   |   |   |-- barcode.webp
+|   |   |   |-- baseball-bat.webp
+|   |   |   |-- baseball-glove.webp
+|   |   |   |-- baseball.webp
+|   |   |   |-- basketball-hoop.webp
+|   |   |   |-- basketball.webp
+|   |   |   |-- bathrobe.webp
+|   |   |   |-- bathtub.webp
+|   |   |   |-- battery.webp
+|   |   |   |-- beach-umbrella.webp
+|   |   |   |-- bead-kit.webp
+|   |   |   |-- beanbag-chair.webp
+|   |   |   |-- beanie.webp
+|   |   |   |-- bear.webp
+|   |   |   |-- bed.webp
+|   |   |   |-- bee.webp
+|   |   |   |-- beer.webp
+|   |   |   |-- bell.webp
+|   |   |   |-- belt.webp
+|   |   |   |-- bench-press.webp
+|   |   |   |-- bicycle-travel.webp
+|   |   |   |-- big-ben.webp
+|   |   |   |-- binoculars.webp
+|   |   |   |-- biometric-login.webp
+|   |   |   |-- bird.webp
+|   |   |   |-- birthday-cake.webp
+|   |   |   |-- birthday-slideshow.webp
+|   |   |   |-- black-laptop.webp
+|   |   |   |-- black-luxury-sedan.webp
+|   |   |   |-- black-off-road-suv.webp
+|   |   |   |-- black-smartphone.webp
+|   |   |   |-- blazer.webp
+|   |   |   |-- blender.webp
+|   |   |   |-- blood-pressure.webp
+|   |   |   |-- blue-jeans.webp
+|   |   |   |-- blue-minivan.webp
+|   |   |   |-- blue-running-shoe.webp
+|   |   |   |-- blue-tshirt.webp
+|   |   |   |-- bluetooth.webp
+|   |   |   |-- boarding-pass.webp
+|   |   |   |-- boat.webp
+|   |   |   |-- body-lotion-bottle.webp
+|   |   |   |-- body-scale.webp
+|   |   |   |-- bomber-jacket.webp
+|   |   |   |-- book-discovery.webp
+|   |   |   |-- book-open.webp
+|   |   |   |-- book.webp
+|   |   |   |-- bookcase.webp
+|   |   |   |-- bookmark.webp
+|   |   |   |-- boot.webp
+|   |   |   |-- bowling-ball.webp
+|   |   |   |-- bowling-pins.webp
+|   |   |   |-- box-grater.webp
+|   |   |   |-- boxing-glove.webp
+|   |   |   |-- brain.webp
+|   |   |   |-- bread.webp
+|   |   |   |-- briefcase.webp
+|   |   |   |-- broadcast.webp
+|   |   |   |-- broccoli.webp
+|   |   |   |-- broom.webp
+|   |   |   |-- bucket-bag.webp
+|   |   |   |-- budget-clipboard.webp
+|   |   |   |-- bug-report.webp
+|   |   |   |-- bug.webp
+|   |   |   |-- building-sparkles.webp
+|   |   |   |-- bulldog-dog.webp
+|   |   |   |-- bulldozer.webp
+|   |   |   |-- burger.webp
+|   |   |   |-- burrito.webp
+|   |   |   |-- bus.webp
+|   |   |   |-- butter.webp
+|   |   |   |-- butterfly.webp
+|   |   |   |-- button-down-shirt.webp
+|   |   |   |-- cable-knit-sweater.webp
+|   |   |   |-- cactus.webp
+|   |   |   |-- cake.webp
+|   |   |   |-- calculator.webp
+|   |   |   |-- calendar.webp
+|   |   |   |-- calico-cat.webp
+|   |   |   |-- camera-battery.webp
+|   |   |   |-- camera-drone.webp
+|   |   |   |-- camera-gear-bag.webp
+|   |   |   |-- camera.webp
+|   |   |   |-- camp-stove.webp
+|   |   |   |-- camper-van.webp
+|   |   |   |-- camping-lantern.webp
+|   |   |   |-- camping-trip.webp
+|   |   |   |-- candles.webp
+|   |   |   |-- canvas-tote.webp
+|   |   |   |-- cap.webp
+|   |   |   |-- car-key.webp
+|   |   |   |-- car.webp
+|   |   |   |-- card-rewards.webp
+|   |   |   |-- cardigan.webp
+|   |   |   |-- cargo-pants.webp
+|   |   |   |-- cargo-ship.webp
+|   |   |   |-- cash-envelope.webp
+|   |   |   |-- cash-register.webp
+|   |   |   |-- cash.webp
+|   |   |   |-- cassette.webp
+|   |   |   |-- cast-iron-skillet.webp
+|   |   |   |-- castle.webp
+|   |   |   |-- cat-care.webp
+|   |   |   |-- cat-eye-sunglasses.webp
+|   |   |   |-- cat-litter-box.webp
+|   |   |   |-- celebration-banner.webp
+|   |   |   |-- cement-mixer.webp
+|   |   |   |-- certificate.webp
+|   |   |   |-- chaise-lounge.webp
+|   |   |   |-- chalkboard.webp
+|   |   |   |-- champagne.webp
+|   |   |   |-- charging-cable.webp
+|   |   |   |-- charging-dock.webp
+|   |   |   |-- chart-down.webp
+|   |   |   |-- chart-up.webp
+|   |   |   |-- chat-bubble.webp
+|   |   |   |-- chat-sparkles.webp
+|   |   |   |-- checklist.webp
+|   |   |   |-- checkmark.webp
+|   |   |   |-- checkout-counter.webp
+|   |   |   |-- checkout.webp
+|   |   |   |-- cheese.webp
+|   |   |   |-- chef-hat.webp
+|   |   |   |-- chemistry-flask.webp
+|   |   |   |-- chess-piece.webp
+|   |   |   |-- chicken-drumstick.webp
+|   |   |   |-- chicken.webp
+|   |   |   |-- child.webp
+|   |   |   |-- children.webp
+|   |   |   |-- chip.webp
+|   |   |   |-- chocolate-bar.webp
+|   |   |   |-- chopsticks.webp
+|   |   |   |-- christmas-tree.webp
+|   |   |   |-- church-building.webp
+|   |   |   |-- city-bicycle.webp
+|   |   |   |-- city-hall.webp
+|   |   |   |-- clapperboard.webp
+|   |   |   |-- cleaning-day.webp
+|   |   |   |-- cleaning-spray-bottle.webp
+|   |   |   |-- climbing-helmet.webp
+|   |   |   |-- climbing.webp
+|   |   |   |-- clipboard.webp
+|   |   |   |-- clock.webp
+|   |   |   |-- close.webp
+|   |   |   |-- clothing-rack.webp
+|   |   |   |-- cloud-backup.webp
+|   |   |   |-- cloud-data.webp
+|   |   |   |-- cloud-server.webp
+|   |   |   |-- cloud.webp
+|   |   |   |-- clutch-bag.webp
+|   |   |   |-- coat.webp
+|   |   |   |-- cocktail-party.webp
+|   |   |   |-- cocktail.webp
+|   |   |   |-- coconut.webp
+|   |   |   |-- code.webp
+|   |   |   |-- coffee-mug.webp
+|   |   |   |-- coffee-table.webp
+|   |   |   |-- coins.webp
+|   |   |   |-- colander.webp
+|   |   |   |-- cold-plunge.webp
+|   |   |   |-- colored-handbag.webp
+|   |   |   |-- colosseum.webp
+|   |   |   |-- compact-camera.webp
+|   |   |   |-- compare.webp
+|   |   |   |-- compass.webp
+|   |   |   |-- confetti.webp
+|   |   |   |-- connected-devices.webp
+|   |   |   |-- construction-company.webp
+|   |   |   |-- contact-card.webp
+|   |   |   |-- contractor-project.webp
+|   |   |   |-- conversation-calendar.webp
+|   |   |   |-- conversation.webp
+|   |   |   |-- cookbook.webp
+|   |   |   |-- cookie.webp
+|   |   |   |-- coral-reef.webp
+|   |   |   |-- corkboard.webp
+|   |   |   |-- couch.webp
+|   |   |   |-- couple.webp
+|   |   |   |-- coupon.webp
+|   |   |   |-- courthouse.webp
+|   |   |   |-- cow.webp
+|   |   |   |-- craft-scissors.webp
+|   |   |   |-- crane.webp
+|   |   |   |-- crayons.webp
+|   |   |   |-- credit-card.webp
+|   |   |   |-- credit-repair.webp
+|   |   |   |-- cricket.webp
+|   |   |   |-- croissant.webp
+|   |   |   |-- crossbody-bag.webp
+|   |   |   |-- crowd.webp
+|   |   |   |-- crown.webp
+|   |   |   |-- cruise-ship.webp
+|   |   |   |-- crutches.webp
+|   |   |   |-- cupcake.webp
+|   |   |   |-- curry.webp
+|   |   |   |-- cursor.webp
+|   |   |   |-- custom-workout.webp
+|   |   |   |-- cutlery.webp
+|   |   |   |-- cutting-board.webp
+|   |   |   |-- cutting-mat.webp
+|   |   |   |-- cycling.webp
+|   |   |   |-- dachshund-dog.webp
+|   |   |   |-- dashboard-monitor.webp
+|   |   |   |-- data-transfer.webp
+|   |   |   |-- database.webp
+|   |   |   |-- debt-payoff.webp
+|   |   |   |-- delivery-box.webp
+|   |   |   |-- denim-jacket.webp
+|   |   |   |-- denim-shirt.webp
+|   |   |   |-- denim-skirt.webp
+|   |   |   |-- dental-floss.webp
+|   |   |   |-- desert.webp
+|   |   |   |-- desk-lamp.webp
+|   |   |   |-- desk.webp
+|   |   |   |-- device-pairing.webp
+|   |   |   |-- dice.webp
+|   |   |   |-- digital-multimeter.webp
+|   |   |   |-- dim-sum.webp
+|   |   |   |-- dining-chair.webp
+|   |   |   |-- dining-table.webp
+|   |   |   |-- director-chair.webp
+|   |   |   |-- disco-ball.webp
+|   |   |   |-- dishwasher.webp
+|   |   |   |-- dispute-claim.webp
+|   |   |   |-- dj-deck.webp
+|   |   |   |-- document.webp
+|   |   |   |-- dog-leash.webp
+|   |   |   |-- dog-training.webp
+|   |   |   |-- dog.webp
+|   |   |   |-- dolphin.webp
+|   |   |   |-- donut.webp
+|   |   |   |-- door.webp
+|   |   |   |-- dotted-notebook.webp
+|   |   |   |-- double-decker-bus.webp
+|   |   |   |-- download.webp
+|   |   |   |-- dress.webp
+|   |   |   |-- dresser.webp
+|   |   |   |-- drizzle.webp
+|   |   |   |-- drum.webp
+|   |   |   |-- drumsticks.webp
+|   |   |   |-- dry-bag.webp
+|   |   |   |-- duck.webp
+|   |   |   |-- duffel-bag.webp
+|   |   |   |-- dumbbell.webp
+|   |   |   |-- dump-truck.webp
+|   |   |   |-- dumplings.webp
+|   |   |   |-- dutch-oven.webp
+|   |   |   |-- earth.webp
+|   |   |   |-- easel.webp
+|   |   |   |-- easter-egg.webp
+|   |   |   |-- edit.webp
+|   |   |   |-- egg.webp
+|   |   |   |-- electric-bicycle.webp
+|   |   |   |-- elephant.webp
+|   |   |   |-- email-draft.webp
+|   |   |   |-- email.webp
+|   |   |   |-- embroidery-hoop.webp
+|   |   |   |-- emotion-angry.webp
+|   |   |   |-- emotion-calm.webp
+|   |   |   |-- emotion-confused.webp
+|   |   |   |-- emotion-crying.webp
+|   |   |   |-- emotion-curious.webp
+|   |   |   |-- emotion-excited.webp
+|   |   |   |-- emotion-frustrated.webp
+|   |   |   |-- emotion-grateful.webp
+|   |   |   |-- emotion-happy.webp
+|   |   |   |-- emotion-laughing.webp
+|   |   |   |-- emotion-proud.webp
+|   |   |   |-- emotion-sad.webp
+|   |   |   |-- emotion-surprised.webp
+|   |   |   |-- emotion-worried.webp
+|   |   |   |-- espresso-cup.webp
+|   |   |   |-- ethernet-cable.webp
+|   |   |   |-- evening-dress.webp
+|   |   |   |-- excavator.webp
+|   |   |   |-- exchange.webp
+|   |   |   |-- expedition-backpack.webp
+|   |   |   |-- external-drive.webp
+|   |   |   |-- eye-hidden.webp
+|   |   |   |-- eye.webp
+|   |   |   |-- factory-building.webp
+|   |   |   |-- falafel.webp
+|   |   |   |-- family-quiz.webp
+|   |   |   |-- family-tree.webp
+|   |   |   |-- family.webp
+|   |   |   |-- fan.webp
+|   |   |   |-- ferry.webp
+|   |   |   |-- filing-cabinet.webp
+|   |   |   |-- film-reel.webp
+|   |   |   |-- filter.webp
+|   |   |   |-- fingerprint.webp
+|   |   |   |-- finish-line-tape.webp
+|   |   |   |-- fire-extinguisher.webp
+|   |   |   |-- fire-hydrant.webp
+|   |   |   |-- fire-station.webp
+|   |   |   |-- fire-truck.webp
+|   |   |   |-- fire.webp
+|   |   |   |-- fireplace.webp
+|   |   |   |-- fireworks-event.webp
+|   |   |   |-- fireworks.webp
+|   |   |   |-- first-aid.webp
+|   |   |   |-- fish.webp
+|   |   |   |-- fitness-watch.webp
+|   |   |   |-- flag.webp
+|   |   |   |-- flight-price-drop.webp
+|   |   |   |-- flip-flops.webp
+|   |   |   |-- flower-bouquet.webp
+|   |   |   |-- flower.webp
+|   |   |   |-- flute.webp
+|   |   |   |-- fog.webp
+|   |   |   |-- foldable-phone.webp
+|   |   |   |-- folder-open.webp
+|   |   |   |-- folder.webp
+|   |   |   |-- food-delivery.webp
+|   |   |   |-- food-processor.webp
+|   |   |   |-- football-helmet.webp
+|   |   |   |-- football.webp
+|   |   |   |-- forest.webp
+|   |   |   |-- forklift.webp
+|   |   |   |-- forward-message.webp
+|   |   |   |-- fountain-pen.webp
+|   |   |   |-- fox.webp
+|   |   |   |-- frog.webp
+|   |   |   |-- frying-pan.webp
+|   |   |   |-- game-console.webp
+|   |   |   |-- game-controller.webp
+|   |   |   |-- game-spinner.webp
+|   |   |   |-- garbage-truck.webp
+|   |   |   |-- garden-care.webp
+|   |   |   |-- garden-fence.webp
+|   |   |   |-- garden-hose.webp
+|   |   |   |-- garden-weather.webp
+|   |   |   |-- garment-steamer.webp
+|   |   |   |-- gas-pump.webp
+|   |   |   |-- gem.webp
+|   |   |   |-- gift-box.webp
+|   |   |   |-- gift-card.webp
+|   |   |   |-- gift-guide.webp
+|   |   |   |-- gift-reminder.webp
+|   |   |   |-- globe.webp
+|   |   |   |-- goalkeeper-glove.webp
+|   |   |   |-- gold-bar.webp
+|   |   |   |-- golf-bag.webp
+|   |   |   |-- golf-club.webp
+|   |   |   |-- golf-green.webp
+|   |   |   |-- golf.webp
+|   |   |   |-- gpu-chip.webp
+|   |   |   |-- graduation-cap.webp
+|   |   |   |-- graduation-diploma.webp
+|   |   |   |-- grapes.webp
+|   |   |   |-- greek-temple.webp
+|   |   |   |-- green-station-wagon.webp
+|   |   |   |-- greenhouse.webp
+|   |   |   |-- grill.webp
+|   |   |   |-- grocery-bag.webp
+|   |   |   |-- group-chat.webp
+|   |   |   |-- guitar.webp
+|   |   |   |-- gymnastic-rings.webp
+|   |   |   |-- habit-change.webp
+|   |   |   |-- hail.webp
+|   |   |   |-- hair-straightener.webp
+|   |   |   |-- hairbrush.webp
+|   |   |   |-- hammer.webp
+|   |   |   |-- hand-mixer.webp
+|   |   |   |-- handheld-console.webp
+|   |   |   |-- handshake.webp
+|   |   |   |-- hanger.webp
+|   |   |   |-- hard-hat.webp
+|   |   |   |-- headphones.webp
+|   |   |   |-- headset.webp
+|   |   |   |-- hearing-aid.webp
+|   |   |   |-- heart-rate.webp
+|   |   |   |-- heatwave.webp
+|   |   |   |-- heel.webp
+|   |   |   |-- helicopter.webp
+|   |   |   |-- high-five.webp
+|   |   |   |-- high-top-sneaker.webp
+|   |   |   |-- highlighter-pen.webp
+|   |   |   |-- hiking-crampons.webp
+|   |   |   |-- hiking-first-aid-pouch.webp
+|   |   |   |-- hiking-hammock.webp
+|   |   |   |-- hiking.webp
+|   |   |   |-- hockey-stick.webp
+|   |   |   |-- hockey.webp
+|   |   |   |-- holiday-party.webp
+|   |   |   |-- home-search.webp
+|   |   |   |-- honey-jar.webp
+|   |   |   |-- hoodie.webp
+|   |   |   |-- horse.webp
+|   |   |   |-- hospital.webp
+|   |   |   |-- hot-air-balloon.webp
+|   |   |   |-- hot-chocolate.webp
+|   |   |   |-- hot-sauce-bottle.webp
+|   |   |   |-- hotel-service-bell.webp
+|   |   |   |-- hotel.webp
+|   |   |   |-- house.webp
+|   |   |   |-- hummus.webp
+|   |   |   |-- husky-dog.webp
+|   |   |   |-- hydration-pack.webp
+|   |   |   |-- hydration-running-belt.webp
+|   |   |   |-- ice-cream.webp
+|   |   |   |-- ice-skate.webp
+|   |   |   |-- image.webp
+|   |   |   |-- inbox.webp
+|   |   |   |-- info.webp
+|   |   |   |-- inhaler.webp
+|   |   |   |-- instant-camera.webp
+|   |   |   |-- investment-portfolio.webp
+|   |   |   |-- invoice.webp
+|   |   |   |-- iron.webp
+|   |   |   |-- ironing-board.webp
+|   |   |   |-- jam-jar.webp
+|   |   |   |-- jeans.webp
+|   |   |   |-- jet-ski.webp
+|   |   |   |-- jewelry-set.webp
+|   |   |   |-- jigsaw-puzzle-box.webp
+|   |   |   |-- joystick.webp
+|   |   |   |-- jump-rope.webp
+|   |   |   |-- karaoke-microphone.webp
+|   |   |   |-- kebab.webp
+|   |   |   |-- ketchup-bottle.webp
+|   |   |   |-- kettle.webp
+|   |   |   |-- key.webp
+|   |   |   |-- keyboard.webp
+|   |   |   |-- kitchen-tongs.webp
+|   |   |   |-- kitchen.webp
+|   |   |   |-- labrador-dog.webp
+|   |   |   |-- lamp.webp
+|   |   |   |-- lantern.webp
+|   |   |   |-- laptop-phone.webp
+|   |   |   |-- laptop.webp
+|   |   |   |-- lasagna.webp
+|   |   |   |-- latte-glass.webp
+|   |   |   |-- laundromat-washer.webp
+|   |   |   |-- laundry-basket.webp
+|   |   |   |-- laundry-day.webp
+|   |   |   |-- layers.webp
+|   |   |   |-- leaf.webp
+|   |   |   |-- leather-jacket.webp
+|   |   |   |-- leather-sofa.webp
+|   |   |   |-- leather-tote.webp
+|   |   |   |-- leather-watch.webp
+|   |   |   |-- lectern.webp
+|   |   |   |-- leggings.webp
+|   |   |   |-- lemon.webp
+|   |   |   |-- lemonade-pitcher.webp
+|   |   |   |-- lens-filter.webp
+|   |   |   |-- letter.webp
+|   |   |   |-- library.webp
+|   |   |   |-- lightbulb.webp
+|   |   |   |-- lightning.webp
+|   |   |   |-- link.webp
+|   |   |   |-- lion.webp
+|   |   |   |-- lipstick.webp
+|   |   |   |-- loafer.webp
+|   |   |   |-- lock.webp
+|   |   |   |-- login.webp
+|   |   |   |-- long-sleeve-tshirt.webp
+|   |   |   |-- longhair-cat.webp
+|   |   |   |-- lounge-chair.webp
+|   |   |   |-- love-heart.webp
+|   |   |   |-- low-top-sneaker.webp
+|   |   |   |-- loyalty-card.webp
+|   |   |   |-- luggage-scale.webp
+|   |   |   |-- luggage-tag.webp
+|   |   |   |-- luggage.webp
+|   |   |   |-- lunch-box.webp
+|   |   |   |-- magic-wand-sparkles.webp
+|   |   |   |-- magnifying-glass-sparkles.webp
+|   |   |   |-- mailbox.webp
+|   |   |   |-- major-purchase.webp
+|   |   |   |-- manicure-set.webp
+|   |   |   |-- map-pin.webp
+|   |   |   |-- map.webp
+|   |   |   |-- market-alert.webp
+|   |   |   |-- market-stall.webp
+|   |   |   |-- martial-arts.webp
+|   |   |   |-- massage-table.webp
+|   |   |   |-- math-symbols.webp
+|   |   |   |-- maxi-dress.webp
+|   |   |   |-- meal-log.webp
+|   |   |   |-- meal-prep.webp
+|   |   |   |-- medal.webp
+|   |   |   |-- medical-clinic.webp
+|   |   |   |-- medicine-dropper.webp
+|   |   |   |-- meditation.webp
+|   |   |   |-- meeting-notes.webp
+|   |   |   |-- meeting-table.webp
+|   |   |   |-- megaphone.webp
+|   |   |   |-- memory-card.webp
+|   |   |   |-- menorah.webp
+|   |   |   |-- messenger-bag.webp
+|   |   |   |-- metal-watch.webp
+|   |   |   |-- microphone.webp
+|   |   |   |-- microscope.webp
+|   |   |   |-- microwave.webp
+|   |   |   |-- midi-dress.webp
+|   |   |   |-- milkshake.webp
+|   |   |   |-- mini-backpack.webp
+|   |   |   |-- minus.webp
+|   |   |   |-- mirror.webp
+|   |   |   |-- mobile-hotspot.webp
+|   |   |   |-- money-bag.webp
+|   |   |   |-- monitor.webp
+|   |   |   |-- mood-journal.webp
+|   |   |   |-- moon.webp
+|   |   |   |-- morning-brief.webp
+|   |   |   |-- motor-scooter.webp
+|   |   |   |-- motorcycle.webp
+|   |   |   |-- mountain-bike.webp
+|   |   |   |-- mountain-cabin.webp
+|   |   |   |-- mountain-nature.webp
+|   |   |   |-- mountain.webp
+|   |   |   |-- moving-day.webp
+|   |   |   |-- moving-plan.webp
+|   |   |   |-- muffin-tin.webp
+|   |   |   |-- multiplication-table.webp
+|   |   |   |-- museum-building.webp
+|   |   |   |-- mushroom.webp
+|   |   |   |-- music-note.webp
+|   |   |   |-- mustard-bottle.webp
+|   |   |   |-- nachos.webp
+|   |   |   |-- necklace.webp
+|   |   |   |-- network-nodes.webp
+|   |   |   |-- newsletter.webp
+|   |   |   |-- newspaper.webp
+|   |   |   |-- ocean-wave.webp
+|   |   |   |-- octopus.webp
+|   |   |   |-- office-chair.webp
+|   |   |   |-- office-tower.webp
+|   |   |   |-- olive-oil-bottle.webp
+|   |   |   |-- open-textbook.webp
+|   |   |   |-- orange-juice.webp
+|   |   |   |-- orange-pickup-truck.webp
+|   |   |   |-- orange-tabby-cat.webp
+|   |   |   |-- orange.webp
+|   |   |   |-- origami-crane.webp
+|   |   |   |-- ornament.webp
+|   |   |   |-- outbox.webp
+|   |   |   |-- oven.webp
+|   |   |   |-- over-ear-headphones.webp
+|   |   |   |-- owl.webp
+|   |   |   |-- oxygen.webp
+|   |   |   |-- paella.webp
+|   |   |   |-- paint-brush.webp
+|   |   |   |-- paint-palette.webp
+|   |   |   |-- paint-roller.webp
+|   |   |   |-- pallet-jack.webp
+|   |   |   |-- palm-tree.webp
+|   |   |   |-- pancake-stack.webp
+|   |   |   |-- paper-clip.webp
+|   |   |   |-- parcel.webp
+|   |   |   |-- parking-guide.webp
+|   |   |   |-- parking.webp
+|   |   |   |-- partly-cloudy.webp
+|   |   |   |-- party-cup.webp
+|   |   |   |-- party-hat.webp
+|   |   |   |-- party-popper.webp
+|   |   |   |-- passport.webp
+|   |   |   |-- pasta.webp
+|   |   |   |-- peanut-butter-jar.webp
+|   |   |   |-- pen.webp
+|   |   |   |-- pencil-case.webp
+|   |   |   |-- penguin.webp
+|   |   |   |-- pepper-grinder.webp
+|   |   |   |-- person.webp
+|   |   |   |-- pet-carrier.webp
+|   |   |   |-- pet-health.webp
+|   |   |   |-- pharmacy-storefront.webp
+|   |   |   |-- pho.webp
+|   |   |   |-- phone-call.webp
+|   |   |   |-- photo-camera.webp
+|   |   |   |-- piano.webp
+|   |   |   |-- pig.webp
+|   |   |   |-- piggy-bank.webp
+|   |   |   |-- pill.webp
+|   |   |   |-- pineapple.webp
+|   |   |   |-- ping-pong.webp
+|   |   |   |-- pizza.webp
+|   |   |   |-- plant.webp
+|   |   |   |-- platform-sneaker.webp
+|   |   |   |-- play-button.webp
+|   |   |   |-- playing-cards.webp
+|   |   |   |-- pleated-skirt.webp
+|   |   |   |-- pocket-notebook.webp
+|   |   |   |-- podcast-mic.webp
+|   |   |   |-- poker-set.webp
+|   |   |   |-- police-car.webp
+|   |   |   |-- pollen-forecast.webp
+|   |   |   |-- polo-shirt.webp
+|   |   |   |-- poodle-dog.webp
+|   |   |   |-- popcorn.webp
+|   |   |   |-- postcard.webp
+|   |   |   |-- pottery-wheel.webp
+|   |   |   |-- power-bank.webp
+|   |   |   |-- power-drill.webp
+|   |   |   |-- prayer-hands.webp
+|   |   |   |-- present.webp
+|   |   |   |-- presentation.webp
+|   |   |   |-- price-sticker.webp
+|   |   |   |-- price-tag.webp
+|   |   |   |-- printables-shop.webp
+|   |   |   |-- printer.webp
+|   |   |   |-- propeller-plane.webp
+|   |   |   |-- protein-shaker.webp
+|   |   |   |-- protractor.webp
+|   |   |   |-- puffer-jacket.webp
+|   |   |   |-- pumpkin.webp
+|   |   |   |-- puzzle-piece.webp
+|   |   |   |-- qr-code.webp
+|   |   |   |-- quesadilla.webp
+|   |   |   |-- question.webp
+|   |   |   |-- rabbit.webp
+|   |   |   |-- race-route-cones.webp
+|   |   |   |-- rain.webp
+|   |   |   |-- rainbow.webp
+|   |   |   |-- raincoat.webp
+|   |   |   |-- raised-fist.webp
+|   |   |   |-- ramen.webp
+|   |   |   |-- reading-challenge.webp
+|   |   |   |-- reading-glasses.webp
+|   |   |   |-- reading-list.webp
+|   |   |   |-- receipt-shop.webp
+|   |   |   |-- receipt.webp
+|   |   |   |-- record-player.webp
+|   |   |   |-- recovery.webp
+|   |   |   |-- red-compact-suv.webp
+|   |   |   |-- red-hiking-boot.webp
+|   |   |   |-- red-sports-car.webp
+|   |   |   |-- red-tshirt.webp
+|   |   |   |-- refrigerator.webp
+|   |   |   |-- retro-sneaker.webp
+|   |   |   |-- return-label.webp
+|   |   |   |-- return-refund.webp
+|   |   |   |-- reusable-bag.webp
+|   |   |   |-- ribbon-spool.webp
+|   |   |   |-- rice-bowl.webp
+|   |   |   |-- ring.webp
+|   |   |   |-- river.webp
+|   |   |   |-- road-barrier.webp
+|   |   |   |-- road.webp
+|   |   |   |-- roadside-assistance.webp
+|   |   |   |-- robot.webp
+|   |   |   |-- rocket.webp
+|   |   |   |-- rocking-chair.webp
+|   |   |   |-- roller-skate.webp
+|   |   |   |-- rolling-pin.webp
+|   |   |   |-- room-redesign.webp
+|   |   |   |-- round-dining-table.webp
+|   |   |   |-- rowing.webp
+|   |   |   |-- rug.webp
+|   |   |   |-- rugby-ball.webp
+|   |   |   |-- ruler.webp
+|   |   |   |-- running-track.webp
+|   |   |   |-- running.webp
+|   |   |   |-- safety-razor.webp
+|   |   |   |-- safety-vest.webp
+|   |   |   |-- salad.webp
+|   |   |   |-- sale-badge.webp
+|   |   |   |-- salon-chair.webp
+|   |   |   |-- salt-shaker.webp
+|   |   |   |-- sandal.webp
+|   |   |   |-- sandwich.webp
+|   |   |   |-- satchel-bag.webp
+|   |   |   |-- satellite-dish.webp
+|   |   |   |-- satellite.webp
+|   |   |   |-- sauna.webp
+|   |   |   |-- savings-jar.webp
+|   |   |   |-- saxophone.webp
+|   |   |   |-- scarf.webp
+|   |   |   |-- school-desk.webp
+|   |   |   |-- school.webp
+|   |   |   |-- science-project.webp
+|   |   |   |-- scrapbook.webp
+|   |   |   |-- search.webp
+|   |   |   |-- sectional-sofa.webp
+|   |   |   |-- security-camera.webp
+|   |   |   |-- security-key.webp
+|   |   |   |-- segway.webp
+|   |   |   |-- send.webp
+|   |   |   |-- server.webp
+|   |   |   |-- settings.webp
+|   |   |   |-- sewing-needle.webp
+|   |   |   |-- shampoo-bottle.webp
+|   |   |   |-- shaving-brush.webp
+|   |   |   |-- shelf.webp
+|   |   |   |-- shield.webp
+|   |   |   |-- shirt.webp
+|   |   |   |-- shopping-bag.webp
+|   |   |   |-- shopping-basket.webp
+|   |   |   |-- shopping-cart.webp
+|   |   |   |-- shorts.webp
+|   |   |   |-- shower.webp
+|   |   |   |-- side-table.webp
+|   |   |   |-- signal.webp
+|   |   |   |-- silhouette.webp
+|   |   |   |-- silver-family-sedan.webp
+|   |   |   |-- size-guide.webp
+|   |   |   |-- skateboard.webp
+|   |   |   |-- ski-goggles.webp
+|   |   |   |-- ski-trip.webp
+|   |   |   |-- ski.webp
+|   |   |   |-- sleep-mask.webp
+|   |   |   |-- sleet.webp
+|   |   |   |-- smart-speaker.webp
+|   |   |   |-- smartphone.webp
+|   |   |   |-- smartwatch.webp
+|   |   |   |-- smoothie.webp
+|   |   |   |-- snake.webp
+|   |   |   |-- sneaker.webp
+|   |   |   |-- snow.webp
+|   |   |   |-- snowboard-boots.webp
+|   |   |   |-- snowboard.webp
+|   |   |   |-- snowflake.webp
+|   |   |   |-- snowmobile.webp
+|   |   |   |-- soap-dispenser.webp
+|   |   |   |-- soccer-ball.webp
+|   |   |   |-- soccer-cleat.webp
+|   |   |   |-- soccer-goal.webp
+|   |   |   |-- social-launch.webp
+|   |   |   |-- software-update.webp
+|   |   |   |-- sort.webp
+|   |   |   |-- soy-sauce-bottle.webp
+|   |   |   |-- spam-cleanup.webp
+|   |   |   |-- sparkle.webp
+|   |   |   |-- speaker.webp
+|   |   |   |-- spice-jar.webp
+|   |   |   |-- spiral-notebook.webp
+|   |   |   |-- spirit-level.webp
+|   |   |   |-- sport-motorcycle.webp
+|   |   |   |-- sports-highlights.webp
+|   |   |   |-- stadium-building.webp
+|   |   |   |-- stage-mic.webp
+|   |   |   |-- stainless-cooking-pot.webp
+|   |   |   |-- stand-mixer.webp
+|   |   |   |-- standing-desk.webp
+|   |   |   |-- stapler.webp
+|   |   |   |-- star-night.webp
+|   |   |   |-- star.webp
+|   |   |   |-- stargazing-night.webp
+|   |   |   |-- statue-of-liberty.webp
+|   |   |   |-- status-indicator.webp
+|   |   |   |-- steak.webp
+|   |   |   |-- step-ladder.webp
+|   |   |   |-- steps.webp
+|   |   |   |-- stethoscope.webp
+|   |   |   |-- sticky-note.webp
+|   |   |   |-- stock-ticker.webp
+|   |   |   |-- stop-sign.webp
+|   |   |   |-- store-locator.webp
+|   |   |   |-- storefront.webp
+|   |   |   |-- strawberry.webp
+|   |   |   |-- stretching.webp
+|   |   |   |-- striped-tshirt.webp
+|   |   |   |-- submarine.webp
+|   |   |   |-- subscription-audit.webp
+|   |   |   |-- subscription-cancellation.webp
+|   |   |   |-- subway.webp
+|   |   |   |-- summer-dress.webp
+|   |   |   |-- sun.webp
+|   |   |   |-- sunglasses.webp
+|   |   |   |-- sunset.webp
+|   |   |   |-- supplements.webp
+|   |   |   |-- surf-wetsuit.webp
+|   |   |   |-- surfboard.webp
+|   |   |   |-- sushi.webp
+|   |   |   |-- swatch-palette.webp
+|   |   |   |-- swim-cap.webp
+|   |   |   |-- swim-fins.webp
+|   |   |   |-- swimming-pool.webp
+|   |   |   |-- swimming.webp
+|   |   |   |-- sydney-opera-house.webp
+|   |   |   |-- sync.webp
+|   |   |   |-- synthesizer.webp
+|   |   |   |-- syringe.webp
+|   |   |   |-- system-health.webp
+|   |   |   |-- table-tennis-paddle.webp
+|   |   |   |-- tablet.webp
+|   |   |   |-- taco.webp
+|   |   |   |-- takeaway-coffee-cup.webp
+|   |   |   |-- tape-measure.webp
+|   |   |   |-- target.webp
+|   |   |   |-- tax-form.webp
+|   |   |   |-- taxi.webp
+|   |   |   |-- tea.webp
+|   |   |   |-- teal-classic-car.webp
+|   |   |   |-- telescope.webp
+|   |   |   |-- tennis-ball.webp
+|   |   |   |-- tennis-racket.webp
+|   |   |   |-- tennis.webp
+|   |   |   |-- tent.webp
+|   |   |   |-- terminal-sparkles.webp
+|   |   |   |-- terminal.webp
+|   |   |   |-- test-tube.webp
+|   |   |   |-- thank-you-note.webp
+|   |   |   |-- theatre-masks.webp
+|   |   |   |-- therapy-session.webp
+|   |   |   |-- thermometer.webp
+|   |   |   |-- thermostat.webp
+|   |   |   |-- thumb-pin.webp
+|   |   |   |-- thumbs-up.webp
+|   |   |   |-- thunderstorm.webp
+|   |   |   |-- ticket.webp
+|   |   |   |-- tie.webp
+|   |   |   |-- tiger.webp
+|   |   |   |-- timer.webp
+|   |   |   |-- toaster.webp
+|   |   |   |-- toggle.webp
+|   |   |   |-- toilet-plunger.webp
+|   |   |   |-- tomato.webp
+|   |   |   |-- tool-belt.webp
+|   |   |   |-- toolbox.webp
+|   |   |   |-- tooth.webp
+|   |   |   |-- toothbrush.webp
+|   |   |   |-- tornado.webp
+|   |   |   |-- tote-bag.webp
+|   |   |   |-- tractor.webp
+|   |   |   |-- traffic-light.webp
+|   |   |   |-- trail-running-shoe.webp
+|   |   |   |-- trail-signpost.webp
+|   |   |   |-- trail-whistle.webp
+|   |   |   |-- train-ticket.webp
+|   |   |   |-- train.webp
+|   |   |   |-- tram.webp
+|   |   |   |-- translate.webp
+|   |   |   |-- trash-can.webp
+|   |   |   |-- travel-neck-pillow.webp
+|   |   |   |-- tree.webp
+|   |   |   |-- trekking-poles.webp
+|   |   |   |-- trench-coat.webp
+|   |   |   |-- trophy.webp
+|   |   |   |-- trousers.webp
+|   |   |   |-- truck.webp
+|   |   |   |-- trumpet.webp
+|   |   |   |-- tshirt.webp
+|   |   |   |-- turtle.webp
+|   |   |   |-- turtleneck-sweater.webp
+|   |   |   |-- tv.webp
+|   |   |   |-- two-factor-authentication.webp
+|   |   |   |-- ukulele.webp
+|   |   |   |-- umbrella.webp
+|   |   |   |-- university-building.webp
+|   |   |   |-- upload-station.webp
+|   |   |   |-- upload.webp
+|   |   |   |-- usb.webp
+|   |   |   |-- v-neck-tshirt.webp
+|   |   |   |-- vacuum-cleaner.webp
+|   |   |   |-- valentine-heart.webp
+|   |   |   |-- varsity-jacket.webp
+|   |   |   |-- vault.webp
+|   |   |   |-- vending-machine.webp
+|   |   |   |-- video-call.webp
+|   |   |   |-- vinegar-bottle.webp
+|   |   |   |-- vintage-travel-trunk.webp
+|   |   |   |-- vinyl.webp
+|   |   |   |-- violin.webp
+|   |   |   |-- voice-memo.webp
+|   |   |   |-- voicemail-summary.webp
+|   |   |   |-- volleyball.webp
+|   |   |   |-- vr-headset.webp
+|   |   |   |-- waffle.webp
+|   |   |   |-- walkie-talkie.webp
+|   |   |   |-- walking.webp
+|   |   |   |-- wallet.webp
+|   |   |   |-- wardrobe.webp
+|   |   |   |-- warning.webp
+|   |   |   |-- washing-machine.webp
+|   |   |   |-- watch.webp
+|   |   |   |-- water-bottle.webp
+|   |   |   |-- water-glass.webp
+|   |   |   |-- watercolor-paint-set.webp
+|   |   |   |-- watermelon.webp
+|   |   |   |-- waveform.webp
+|   |   |   |-- waving-hand.webp
+|   |   |   |-- weather-thermometer.webp
+|   |   |   |-- webcam.webp
+|   |   |   |-- wedding-cake.webp
+|   |   |   |-- wedding-rings.webp
+|   |   |   |-- weekender-bag.webp
+|   |   |   |-- weightlifting.webp
+|   |   |   |-- whale.webp
+|   |   |   |-- whisk.webp
+|   |   |   |-- white-delivery-van.webp
+|   |   |   |-- white-electric-suv.webp
+|   |   |   |-- white-race-car.webp
+|   |   |   |-- white-tshirt.webp
+|   |   |   |-- whiteboard.webp
+|   |   |   |-- wifi-router.webp
+|   |   |   |-- wifi.webp
+|   |   |   |-- wildfire-alert.webp
+|   |   |   |-- wind.webp
+|   |   |   |-- window.webp
+|   |   |   |-- wine-pairing.webp
+|   |   |   |-- wine.webp
+|   |   |   |-- wingback-chair.webp
+|   |   |   |-- winners-podium.webp
+|   |   |   |-- wireless-earbuds.webp
+|   |   |   |-- wishlist.webp
+|   |   |   |-- wooden-cutlery.webp
+|   |   |   |-- workout-plan.webp
+|   |   |   |-- wrap-dress.webp
+|   |   |   |-- wrench.webp
+|   |   |   |-- wrestling.webp
+|   |   |   |-- writing-desk.webp
+|   |   |   |-- yarn-ball.webp
+|   |   |   |-- yellow-convertible.webp
+|   |   |   |-- yoga.webp
+|   |   |   |-- yogurt-cup.webp
+|   |   |   `-- zip-hoodie.webp
+|   |   |-- icons-legacy
+|   |   |   |-- activity.png
+|   |   |   |-- airplane.png
+|   |   |   |-- alarmClock.png
+|   |   |   |-- archive.png
+|   |   |   |-- article.png
+|   |   |   |-- avatar.png
+|   |   |   |-- backpack.png
+|   |   |   |-- bed.png
+|   |   |   |-- bell.png
+|   |   |   |-- binoculars.png
+|   |   |   |-- bookClosed.png
+|   |   |   |-- bookOpen.png
+|   |   |   |-- bookmark.png
+|   |   |   |-- briefcase.png
+|   |   |   |-- buildingBank.png
+|   |   |   |-- cake.png
+|   |   |   |-- calendar.png
+|   |   |   |-- camera.png
+|   |   |   |-- chartBar.png
+|   |   |   |-- check.png
+|   |   |   |-- clipboard.png
+|   |   |   |-- clock.png
+|   |   |   |-- coinStack.png
+|   |   |   |-- compass.png
+|   |   |   |-- creditCard.png
+|   |   |   |-- document.png
+|   |   |   |-- documentFormatAudio.png
+|   |   |   |-- documentFormatCode.png
+|   |   |   |-- documentFormatDoc.png
+|   |   |   |-- documentFormatPDF.png
+|   |   |   |-- documentFormatPowerpoint.png
+|   |   |   |-- documentFormatSlide.png
+|   |   |   |-- documentFormatWord.png
+|   |   |   |-- envelope.png
+|   |   |   |-- familyCenter.png
+|   |   |   |-- folder.png
+|   |   |   |-- folderOpen.png
+|   |   |   |-- gift.png
+|   |   |   |-- globe.png
+|   |   |   |-- heart.png
+|   |   |   |-- house.png
+|   |   |   |-- image.png
+|   |   |   |-- laptopPhone.png
+|   |   |   |-- lightbulb.png
+|   |   |   |-- listCheck.png
+|   |   |   |-- locationPin.png
+|   |   |   |-- map.png
+|   |   |   |-- mediaPlay.png
+|   |   |   |-- megaphone.png
+|   |   |   |-- microphone.png
+|   |   |   |-- microscope.png
+|   |   |   |-- moonCrescent.png
+|   |   |   |-- mortarboard.png
+|   |   |   |-- musicNote.png
+|   |   |   |-- newspaper.png
+|   |   |   |-- paintBrush.png
+|   |   |   |-- paintPalette.png
+|   |   |   |-- paperclip.png
+|   |   |   |-- phoneHandset.png
+|   |   |   |-- presentation.png
+|   |   |   |-- rocket.png
+|   |   |   |-- search.png
+|   |   |   |-- send.png
+|   |   |   |-- shoppingBag.png
+|   |   |   |-- shoppingCart.png
+|   |   |   |-- speechBubble.png
+|   |   |   |-- star.png
+|   |   |   |-- storefront.png
+|   |   |   |-- sun.png
+|   |   |   |-- swatchPalette.png
+|   |   |   |-- thumbpin.png
+|   |   |   |-- timer.png
+|   |   |   |-- user.png
+|   |   |   |-- users2.png
+|   |   |   |-- users3.png
+|   |   |   `-- wrench.png
+|   |   `-- new-user
+|   |       `-- catalog.json
+|   `-- onboarding_tour
+|       |-- artifact.png
+|       |-- avatars.png
+|       |-- crons.png
+|       |-- goals.png
+|       `-- memory_import.md
+|-- config
+|   |-- filesystem_watch_hashes.initialized
+|   |-- filesystem_watch_hashes.json
+|   |-- home.yaml
+|   |-- skills.yaml
+|   |-- workspace-state.json
+|   `-- workspace-state.lock
+|-- data
+|-- docs
+|   |-- artifacts.md
+|   |-- browser.md
+|   |-- calls-texts-notifications.md
+|   |-- chat
+|   |   |-- payments-and-purchases.md
+|   |   `-- scheduling-and-watching.md
+|   |-- chat-connections
+|   |   `-- whatsapp.md
+|   |-- chat-connections.md
+|   |-- client-surfaces.md
+|   |-- connectors.md
+|   |-- data-handling.md
+|   |-- devices
+|   |   |-- home_link
+|   |   |   `-- integrations
+|   |   |       |-- brother_printers.md
+|   |   |       |-- lutron_smart_bridges.md
+|   |   |       `-- shelly_plugs.md
+|   |   |-- home_link.md
+|   |   |-- mac_app.md
+|   |   `-- tailscale.md
+|   |-- feed.md
+|   |-- files-and-library.md
+|   |-- goals.md
+|   |-- ideas.md
+|   |-- media.md
+|   |-- memory.md
+|   |-- muse.md
+|   |-- payments-and-purchases.md
+|   |-- privacy-and-credentials.md
+|   |-- referrals.md
+|   |-- scheduling-and-watching.md
+|   |-- self_improvement.md
+|   `-- voice.md
+|-- dreams
+|   |-- 2026-10-09.md
+|   `-- alignment
+|       |-- derived
+|       |   |-- ALIGNMENT_STATE.yaml
+|       |   |-- ALIGNMENT_STATE.yaml.state
+|       |   |-- ALIGNMENT_SYNTHESIS.md
+|       |   `-- PROGRESSION_HISTORY.yaml
+|       `-- repair
+|           |-- REPAIR_THREADS.yaml
+|           `-- REPAIR_THREADS.yaml.threads
+|-- hooks
+|   |-- archive
+|   |-- definitions
+|   |-- logs
+|   |-- runtime
+|   |   `-- hatch_hook_runtime.sh
+|   |-- scripts
+|   `-- state
+|-- memory
+|   |-- 2026-10-09.md
+|   |-- 2026-10-10.md
+|   |-- bank
+|   |   |-- experience.md
+|   |   |-- opinions.md
+|   |   |-- reflections.md
+|   |   `-- world.md
+|   |-- groups
+|   |   `-- INDEX.md
+|   `-- people
+|       `-- INDEX.md
+|-- runtime.lock
+|-- subscriptions
+|   |-- activity_feed
+|   |   `-- subscription.md
+|   |-- device_syncs
+|   |   `-- subscription.md
+|   `-- spaces_actions
+|       `-- subscription.md
+|-- user
+|   `-- voice_lifecycle.json
+`-- workspace
+    |-- agents
+    |   |-- 42218e15-8480-4896-9eb4-c0d00a6dbf0c
+    |   |   `-- tool-output
+    |   |-- 5b092c66-6371-46d1-ad4c-1f0831ffc0fb
+    |   |   `-- tool-output
+    |   |-- c88323b2-aec4-4b6f-a87d-b540dd688f60
+    |   |   `-- tool-output
+    |   |-- cdff7ecc-8cad-4099-bf64-e3dc428a421f
+    |   |   `-- tool-output
+    |   |-- e8e4b3a3-e360-420a-b22c-e7ccbef6ae12
+    |   |   `-- tool-output
+    |   |-- f4415b65-167f-49d0-8430-adbba654b111
+    |   |   `-- tool-output
+    |   `-- fdfd51e2-8e51-4853-98c8-7831b59fa5fb
+    |       `-- tool-output
+    |-- avatars
+    |   |-- .frames
+    |   |   |-- static-1791539864191598118-0-idle.webp
+    |   |   |-- static-1791539864191598118-0-making_something.webp
+    |   |   |-- static-1791539864191598118-0-milestone_level_up.webp
+    |   |   `-- static-1791539864191598118-0-working.webp
+    |   |-- .thumbnails
+    |   |   |-- avatar-1791539864191598118-0-making_something.jpg
+    |   |   |-- avatar-1791539864191598118-0-milestone_level_up.jpg
+    |   |   |-- avatar-1791539864191598118-0-working.jpg
+    |   |   `-- avatar-1791539864191598118-0.jpg
+    |   |-- avatar-1791539864191598118-0-making_something.mp4
+    |   |-- avatar-1791539864191598118-0-milestone_level_up.mp4
+    |   |-- avatar-1791539864191598118-0-working.mp4
+    |   |-- avatar-1791539864191598118-0.mp4
+    |   |-- avatar-1791539864191598118-0.webp
+    |   |-- avatar-options-1791537501213485323-0-1.webp
+    |   |-- avatar-options-1791537501213485323-0-2.webp
+    |   |-- avatar-options-1791537501213485323-0-3.webp
+    |   `-- avatar-options-1791537501213485323-0-4.webp
+    |-- cron.d
+    |   |-- _archive
+    |   |-- _invalid
+    |   |-- daily
+    |   |   `-- agentic-feature-tour__daily@12:10:00.md
+    |   |-- hourly
+    |   |-- minutely
+    |   |   `-- heartbeat__interval@30m.md
+    |   |-- monthly
+    |   |-- runonce
+    |   |-- secondly
+    |   |-- weekly
+    |   `-- yearly
+    |-- docs-archive.zip
+    |-- feed
+    |   |-- media
+    |   |   |-- 3p
+    |   |   |   |-- 18c8b7a4ac7e5b5e7256d6526bfefa60fd46f9f74942bb681a6fc8321c5e58d8
+    |   |   |   |   `-- hero.jpg
+    |   |   |   |-- 3591c91325e21958c89fd65667921c4b9d065d17884a53d8abf611a776e8210d
+    |   |   |   |   `-- hero.jpg
+    |   |   |   |-- 621e3ae4f2e6450ddc628a2861733ac2b38775cf852ed8dffcd4e21d610f7cf5
+    |   |   |   |   `-- hero.jpg
+    |   |   |   `-- 880382c02ea115eab29f4a6769b3d6e8653e3c4976cbc6e42f74974b5dec10d5
+    |   |   |       `-- hero.jpg
+    |   |   |-- index.json
+    |   |   `-- staging
+    |   |-- research
+    |   |   `-- b00bd66c-383e-4f93-9cc2-d3f270e534d5
+    |   |       |-- 2026-10-09-adhoc-94d742c7
+    |   |       |   `-- web.md
+    |   |       |-- 2026-10-09-adhoc-b3d8c164
+    |   |       |   `-- web.md
+    |   |       |-- 2026-10-09-adhoc-cba3843d
+    |   |       |   `-- web.md
+    |   |       `-- 2026-10-09-midday-c91a5e59
+    |   |           `-- web.md
+    |   `-- runs
+    |-- home-tree.txt
+    |-- mem-hog
+    |   `-- mem_hog.py
+    |-- memory
+    |   |-- reconciliation_attempts
+    |   |   |-- 2026-10-09
+    |   |   |   |-- 27c3d6280ae4a0c2b1d37071cfdc999634987d20e0a5dc55b3b1f81174b83093.json
+    |   |   |   `-- f699b4a6f53d17bf7c026b6435f3610dcd547bb321f890c17731c9616055cf93.json
+    |   |   `-- 2026-10-10
+    |   |       `-- 4eea9e3bb358c6710554952616bde1459accfa1e9b1807669b8cbd070315a33e.json
+    |   `-- reconciliation_state.json
+    |-- objectives
+    |   `-- goals
+    |       `-- INFERRED_GOAL_LEADS.md
+    |-- onboarding_tour
+    |   |-- artifact.png
+    |   |-- avatars.png
+    |   |-- crons.png
+    |   `-- goals.png
+    |-- proactivity
+    |   `-- hidden_files
+    |       |-- 1791552294011-3c8231de1b92be51053f0774a9ed98cf
+    |       |   |-- conversation.md
+    |       |   |-- feed.md
+    |       |   |-- memory.md
+    |       |   `-- scheduled-crons.md
+    |       |-- 1791552294011-4c7eddacfe64ac4f67e511efacfab57b
+    |       |   |-- conversation.md
+    |       |   |-- opportunities.md
+    |       |   `-- scheduled-crons.md
+    |       |-- 1791559489009-15204abca8c77caa6bc81414239b93a2
+    |       |   |-- conversation.md
+    |       |   |-- feed.md
+    |       |   |-- scheduled-crons.md
+    |       |   `-- sent.md
+    |       `-- 1791595498992-cbeb54ceee2a318a6064a91895331387
+    |           |-- conversation.md
+    |           |-- feed.md
+    |           |-- scheduled-crons.md
+    |           `-- sent.md
+    |-- root-tree.txt
+    |-- scheduler
+    |-- self_improvement
+    |   |-- migrations
+    |   |   `-- copy_first_objective_workspace_v1.json
+    |   |-- objectives
+    |   |   |-- alignment
+    |   |   |   |-- CURRENT.md
+    |   |   |   `-- archive
+    |   |   |       `-- 20261009T181516Z.CURRENT.md
+    |   |   |-- goals_bookkeeping
+    |   |   |   |-- CURRENT.md
+    |   |   |   `-- archive
+    |   |   |       |-- 20261009T115118Z.CURRENT.md
+    |   |   |       |-- 20261009T181547Z.CURRENT.md
+    |   |   |       |-- 20261010T055107Z.CURRENT.md
+    |   |   |       `-- 20261010T115103Z.CURRENT.md
+    |   |   |-- ideas
+    |   |   |   `-- CURRENT.md
+    |   |   |-- memory
+    |   |   |   |-- CURRENT.md
+    |   |   |   `-- archive
+    |   |   |       |-- 20261009T100259Z.CURRENT.md
+    |   |   |       |-- 20261009T130345Z.CURRENT.md
+    |   |   |       |-- 20261010T020408Z.CURRENT.md
+    |   |   |       `-- 20261010T120607Z.CURRENT.md
+    |   |   |-- relationships
+    |   |   |   |-- CURRENT.md
+    |   |   |   `-- archive
+    |   |   |       |-- 20261009T095813Z.CURRENT.md
+    |   |   |       |-- 20261009T105820Z.CURRENT.md
+    |   |   |       |-- 20261009T125842Z.CURRENT.md
+    |   |   |       |-- 20261010T015827Z.CURRENT.md
+    |   |   |       `-- 20261010T115829Z.CURRENT.md
+    |   |   |-- shopping
+    |   |   |   |-- CURRENT.md
+    |   |   |   `-- archive
+    |   |   |       `-- 20261010T101113Z.CURRENT.md
+    |   |   |-- skill_improvement
+    |   |   |   `-- CURRENT.md
+    |   |   `-- studying
+    |   |       `-- CURRENT.md
+    |   |-- relationships
+    |   |   `-- legacy_page_archives
+    |   |       |-- groups.pre-relationships-reset-20261009T085808Z
+    |   |       `-- people.pre-relationships-reset-20261009T085808Z
+    |   `-- staging
+    |       |-- memory
+    |       |   |-- sirun_09434983df9d402285c12d686f9f18d9
+    |       |   |   `-- memory_reconciliation
+    |       |   |       |-- pinned
+    |       |   |       |   |-- USER.numbered.md
+    |       |   |       |   `-- USER.pinned.md
+    |       |   |       `-- reconciliation_state.json
+    |       |   |-- sirun_24b49cedaced472aa2dee86b7c3946f9
+    |       |   |   `-- memory_reconciliation
+    |       |   |       |-- pinned
+    |       |   |       |   |-- MEMORY.numbered.md
+    |       |   |       |   `-- MEMORY.pinned.md
+    |       |   |       `-- reconciliation_state.json
+    |       |   |-- sirun_5ebf0e06e5e6481c975f1ee5a77c60d2
+    |       |   |   `-- memory_reconciliation
+    |       |   |       |-- pinned
+    |       |   |       |   |-- MEMORY.numbered.md
+    |       |   |       |   `-- MEMORY.pinned.md
+    |       |   |       |-- reconciliation_state.json
+    |       |   |       `-- review
+    |       |   |           |-- MEMORY.before.md
+    |       |   |           `-- MEMORY.md
+    |       |   |-- sirun_84ee464afa6e47fdafca67d2ddf334b8
+    |       |   |   `-- memory_reconciliation
+    |       |   |       |-- pinned
+    |       |   |       |   |-- MEMORY.numbered.md
+    |       |   |       |   `-- MEMORY.pinned.md
+    |       |   |       `-- reconciliation_state.json
+    |       |   `-- sirun_87d0a577ff4a45e3b18cfb22adcdbd85
+    |       |       `-- memory_reconciliation
+    |       |           |-- pinned
+    |       |           |   |-- MEMORY.numbered.md
+    |       |           |   `-- MEMORY.pinned.md
+    |       |           |-- reconciliation_state.json
+    |       |           `-- review
+    |       |               |-- MEMORY.before.md
+    |       |               `-- MEMORY.md
+    |       |-- relationships
+    |       |   |-- sirun_63d3ba543a864a2db64a2f9dde422735
+    |       |   |-- sirun_8d2384ccf4d645ba9d5a068d824011a9
+    |       |   |-- sirun_8dd292ae8485422ba1812d8c417089a5
+    |       |   |-- sirun_b493303eaa504ff98f011e680b75fbec
+    |       |   |-- sirun_b5e7f856c01b4a2a9a67d6ace5f93e71
+    |       |   `-- sirun_cd62f09a64844e118dd37034879c0155
+    |       `-- shopping
+    |           |-- sirun_4d46a67459724d1e8612da8c21a4f173
+    |           `-- sirun_b93748540b404b408fdaaaa4631b2265
+    |               `-- PROFILE.md
+    |-- spaces
+    |-- system
+    |   `-- system_prompt.md
+    |-- time-logger
+    |   |-- time.log
+    |   `-- time_logger.py
+    |-- workspace-tree.txt
+    `-- your_files
+        `-- proactive_messages
+            `-- research
+                `-- proactive_notification:phase-497653:research
+                    `-- run:proactive_notification:phase-497653:regular:item:1.md
+
+321 directories, 1385 files
