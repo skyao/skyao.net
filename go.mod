@@ -10,5 +10,11 @@ require (
 
 // replace for develop when forked repo is in local
 replace github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 => ../hugo-blox-builder/modules/blox-bootstrap
+
 replace github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify => ../hugo-blox-builder/modules/blox-plugin-netlify
+
 replace github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal => ../hugo-blox-builder/modules/blox-plugin-reveal
+
+replace github.com/HugoBlox/hugo-blox-builder/modules/blox-core => ../hugo-blox-builder/modules/blox-core
+
+replace github.com/HugoBlox/hugo-blox-builder/modules/blox-seo => ../hugo-blox-builder/modules/blox-seo

@@ -1,6 +1,6 @@
 ---
-title: Dream Mesh
-summary: 构思中的开源项目，新一代云原生基础设施，提供类似Servicemesh+Dapr的功能.
+title: Service Agent
+summary: 构思中的开源项目，结合 AI Agent 打造新式服务间通讯方案。
 tags:
 - cloudnative
 - appruntime
@@ -17,8 +17,8 @@ image:
 links:
 - icon: github
   icon_pack: fab
-  name: Follow
-  url: https://github.com/dreamfly-io/dream-mesh
+  name: GitHub
+  url: https://github.com/service-agent-dev/service-agent
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -32,6 +32,4 @@ url_video: ""
 slides: ""
 ---
 
-Dream Mesh = Servicemesh + Dapr based on Rust + Web Assembly
-
-构思中......
+Service Agent 是一个构思中的开源项目，结合 AI Agent 打造新式服务间通讯方案。

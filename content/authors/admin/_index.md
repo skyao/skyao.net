@@ -25,18 +25,17 @@ organizations:
     url: https://skyao.net/
 
 # Short bio (displayed in user profile at end of posts)
-bio: 我目前研究的方向主要在Microservice、Servicemesh、Serverless等Cloud Native相关的领域，欢迎交流和指导。
+bio: 我目前研究的方向主要在 AI Agent 相关的领域，欢迎交流和指导。
 
 # Interests to show in About widget
 interests:
   - 微服务/Micro Service
   - 服务网格/Service Mesh
   - 无服务器/Serverless
-  - 事件驱动/Event Driven
-  - 应用运行时/App Runtime
   - 云原生/Cloud Native
   - Rust/Golang/Java/Python
-  - Web Assembly
+  - AI Agent
+  - AI 编程
 
 # Education to show in About widget
 education:
@@ -107,7 +106,7 @@ highlight_name: true
 
 敖小剑，资深码农，二十三年软件开发经验，微服务专家，Service Mesh布道师，云原生布道师，前 Dapr Approver。专注于基础架构，Cloud Native 爱好者和实践者，坚守开发一线打磨匠艺的架构师。曾在亚信、爱立信、唯品会、蚂蚁集团/阿里云、微软、华为等任职，对基础架构和微服务有过深入研究和实践，矢志不渝探索云原生新方向。
 
-2024年底加入华为云容器团队，继续从事云原生和 serverless 方面的工作。工作之余，正在重新构思一款能让自己满意的新产品，暂时命名为 [CloudRuntime](https://cloudruntime.net/)。
+2024年底加入华为云容器团队，除了继续从事云原生和 serverless 方面的工作，也在积极转型 AI Agent 运行平台和 AI Agent 开发。
 
 （欢迎使用  [<i class="fa fa-rss" aria-hidden="true"></i> RSS订阅](https://skyao.net/index.xml) 本站内容更新）
 

@@ -16,17 +16,17 @@ sections:
       title: 重点关注
       text: '个人看好并正在努力学习和探索中的新技术方向'
       items:
-        - name: App Runtime
-          description: '为云原生应用提供全面支持'
+        - name: AI Agent
+          description: '探索智能体开发与运行平台'
           icon: object-group
           icon_pack: fa
-        - name: Rust
-          description: '云原生基础设施最佳编程语'
-          icon: rust
-          icon_pack: fab
-        - name: Web Assembly
-          description: '潜在的颠覆性技术突破点'
-          icon: space-shuttle
+        - name: AI 编程
+          description: '探索 AI 驱动的软件开发新方式'
+          icon: code
+          icon_pack: fa
+        - name: AI 原生应用
+          description: '探索以智能体为核心的应用新形态'
+          icon: cubes
           icon_pack: fa
   - block: collection
     id: latest-talks
